@@ -1,0 +1,7464 @@
+[
+{
+  "model": "accounts.role",
+  "pk": 1,
+  "fields": {
+    "name": "SYSTEM_ADMIN"
+  }
+},
+{
+  "model": "accounts.role",
+  "pk": 2,
+  "fields": {
+    "name": "PMO"
+  }
+},
+{
+  "model": "accounts.role",
+  "pk": 3,
+  "fields": {
+    "name": "CHEF_PROJET"
+  }
+},
+{
+  "model": "accounts.role",
+  "pk": 4,
+  "fields": {
+    "name": "MEMBRE"
+  }
+},
+{
+  "model": "accounts.team",
+  "pk": 2,
+  "fields": {
+    "name": "Development"
+  }
+},
+{
+  "model": "accounts.team",
+  "pk": 3,
+  "fields": {
+    "name": "Design"
+  }
+},
+{
+  "model": "accounts.team",
+  "pk": 4,
+  "fields": {
+    "name": "QA"
+  }
+},
+{
+  "model": "accounts.subteam",
+  "pk": 2,
+  "fields": {
+    "name": "Frontend",
+    "team": 2
+  }
+},
+{
+  "model": "accounts.subteam",
+  "pk": 3,
+  "fields": {
+    "name": "Backend",
+    "team": 2
+  }
+},
+{
+  "model": "accounts.subteam",
+  "pk": 4,
+  "fields": {
+    "name": "Fullstack",
+    "team": 2
+  }
+},
+{
+  "model": "accounts.subteam",
+  "pk": 5,
+  "fields": {
+    "name": "Mobile",
+    "team": 2
+  }
+},
+{
+  "model": "accounts.subteam",
+  "pk": 6,
+  "fields": {
+    "name": "UI/UX",
+    "team": 3
+  }
+},
+{
+  "model": "accounts.subteam",
+  "pk": 7,
+  "fields": {
+    "name": "Graphic Design",
+    "team": 3
+  }
+},
+{
+  "model": "accounts.subteam",
+  "pk": 8,
+  "fields": {
+    "name": "Manual Testing",
+    "team": 4
+  }
+},
+{
+  "model": "accounts.subteam",
+  "pk": 9,
+  "fields": {
+    "name": "Automation Testing",
+    "team": 4
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$C0dtXgvMlEQNbA8kRNldrh$Z0HYi7xcfsB0+WRruHiVcsMTdV7wN7kLbg26p2S86uU=",
+    "last_login": "2026-05-07T11:30:56.498Z",
+    "is_superuser": true,
+    "username": "admin@gmail.com",
+    "first_name": "Admin",
+    "last_name": "admin",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-02-20T14:23:18Z",
+    "role": 1,
+    "team": null,
+    "sub_team": null,
+    "salary_per_hour": "0.00",
+    "monthly_salary": "0.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 23,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$haOI4kPgxJpWO4Kw7r927P$oYXBKTv87XvnFVMOhJ8hIO1EhvkMtkdj8hBQ63vFcVw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "oumaima@gmail.com",
+    "first_name": "oumaima",
+    "last_name": "bougataya",
+    "email": "oumaima@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-03-05T20:11:42.538Z",
+    "role": 2,
+    "team": null,
+    "sub_team": null,
+    "salary_per_hour": "0.00",
+    "monthly_salary": "0.00",
+    "profile_image": "profiles/favicon.ico",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 41,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$1sLDgilTZSjOUq6MReigS1$2fQNhMa6nAZUaiFW7MFDGQHDXMPYcy/Q+2JW8Ud2G8Q=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sana@gmail.com",
+    "first_name": "sana",
+    "last_name": "bougataya",
+    "email": "sana@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-03-23T12:54:00.686Z",
+    "role": 3,
+    "team": null,
+    "sub_team": null,
+    "salary_per_hour": "0.00",
+    "monthly_salary": "0.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 48,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$pJytPfO5XypsbYtpAmcb9l$dbjNejrExKVpRAM1ALlnEBFxiZLbXoFtp3yZk3I9gME=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ferdaous@gmail.com",
+    "first_name": "ferdaous",
+    "last_name": "bahri",
+    "email": "ferdaous@gmail.com",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-03-25T17:43:12.765Z",
+    "role": 4,
+    "team": 3,
+    "sub_team": 7,
+    "salary_per_hour": "50.00",
+    "monthly_salary": "8800.00",
+    "profile_image": "profiles/Capture_décran_2024-10-16_111207.png",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 49,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$jKxRuAO5I33rKr1C9w5gDM$AfPq/rW1M15WyB5tJuFrAyTig7JQiI12eCrUymWmWuE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Mohamed@gmail.com",
+    "first_name": "Mohamed",
+    "last_name": "bougataya",
+    "email": "Mohamed@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-03-25T19:20:48.408Z",
+    "role": 4,
+    "team": 4,
+    "sub_team": 9,
+    "salary_per_hour": "50.00",
+    "monthly_salary": "8800.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 59,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$FrfSRYOuzRuqVGM93uazsZ$Ma6ByXD4DsbD+t+fYU3+kaf0cG38uM42KecZ/piAjb8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "mouna@gmail.com",
+    "first_name": "mouna",
+    "last_name": "hamraoui",
+    "email": "mouna@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-03-30T08:18:23.091Z",
+    "role": 3,
+    "team": null,
+    "sub_team": null,
+    "salary_per_hour": "0.00",
+    "monthly_salary": "0.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 61,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$CDf2oXA0xkYrte45J0wKSx$EF2TYmA74SBnijOCHhrGaryQ/zLMAxUukUdUZFnJzS0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ines@gmail.com",
+    "first_name": "ines",
+    "last_name": "bougataya",
+    "email": "ines@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-03-31T23:02:45.959Z",
+    "role": 4,
+    "team": 2,
+    "sub_team": 5,
+    "salary_per_hour": "70.00",
+    "monthly_salary": "12320.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 68,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$FmKUbUOHypKRr3Rcogm9Tv$WUUgtK0AZhVzV43gJMu8Dy7y255JkJj52qhIDf9JWso=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "samira@gmail.com",
+    "first_name": "samira",
+    "last_name": "Bougataya",
+    "email": "samira@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-04T16:36:02.927Z",
+    "role": 4,
+    "team": 3,
+    "sub_team": 7,
+    "salary_per_hour": "40.00",
+    "monthly_salary": "7040.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 69,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$uqrQ2D2EsTQX1UxRwQUhyi$tfUX27F3KMv21EzUg2EuAmNyvO14oW5A0ebrqo7NoxM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "hanin@gmail.com",
+    "first_name": "hanin",
+    "last_name": "Bougataya",
+    "email": "hanin@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-05T10:06:34.064Z",
+    "role": 3,
+    "team": null,
+    "sub_team": null,
+    "salary_per_hour": "10.00",
+    "monthly_salary": "1760.00",
+    "profile_image": "profiles/Capture_décran_2024-10-16_111129.png",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 70,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$rx2m9JqTaofOfD1QYSfrq0$2goTXB2tMxmzinbYbWp2bp2I4LB1RKKRaTcS+tGm6Tw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "alex@gmail.com",
+    "first_name": "alex",
+    "last_name": "alex",
+    "email": "alex@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:18:13.650Z",
+    "role": 4,
+    "team": 2,
+    "sub_team": 3,
+    "salary_per_hour": "70.00",
+    "monthly_salary": "12320.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 71,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Xh0yJJKFAIrryb21tuWlaF$2soB2k5ns8j2XhXRRyDOspWBaiA0RcoEdihKUuQZ1BY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ahmed@gmail.com",
+    "first_name": "ahmed",
+    "last_name": "bouraoui",
+    "email": "ahmed@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:30:59Z",
+    "role": 4,
+    "team": 2,
+    "sub_team": 3,
+    "salary_per_hour": "70.00",
+    "monthly_salary": "12320.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 72,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$X4APADgWr6d9ugD8xLTSaf$tkqVY0X0x3ia25jZu2MOHrwdV9HBJ1bbcQAiqMU2X5M=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "rania@gmail.com",
+    "first_name": "rania",
+    "last_name": "belwefi",
+    "email": "rania@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:34:17.569Z",
+    "role": 4,
+    "team": 3,
+    "sub_team": 6,
+    "salary_per_hour": "50.00",
+    "monthly_salary": "8800.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 73,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$85Bcqy9fUjRqCZ0WWSEIHr$cKq1+5ftNKEBCTovfyOG4r0CBzmuADVc6VUQMGfKBCU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "souha@gmail.com",
+    "first_name": "souha",
+    "last_name": "souha",
+    "email": "souha@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:35:09.822Z",
+    "role": 4,
+    "team": 3,
+    "sub_team": 7,
+    "salary_per_hour": "50.00",
+    "monthly_salary": "8800.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 74,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$VJ01cqPQwe7w5BGXm7nnXq$De7kpyzxiyUHBK/mOXwZEZsoYMjPrAhs8AVox+Dnhr8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sirin@gmail.com",
+    "first_name": "sirin",
+    "last_name": "bougataya",
+    "email": "sirin@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:36:12.982Z",
+    "role": 4,
+    "team": 4,
+    "sub_team": 9,
+    "salary_per_hour": "70.00",
+    "monthly_salary": "12320.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 75,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$khV0e6Xe4bSLRPk5jPUSmX$7/Jex5U42A6SK5q+K1xR9r/QhPcfO+hoZ0IvqL5oX5M=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "iyed@gmail.com",
+    "first_name": "iyed",
+    "last_name": "braiek",
+    "email": "iyed@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:37:30.839Z",
+    "role": 4,
+    "team": 3,
+    "sub_team": 6,
+    "salary_per_hour": "50.00",
+    "monthly_salary": "8800.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 76,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$pNBa2ilJarmEJTPA3eYFDM$OvDVg9H5Em5JaNNh21kN1rgIMWoXdSpjfD1L0Ju28BQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sara@gmail.com",
+    "first_name": "sara",
+    "last_name": "mansour",
+    "email": "sara@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:40:15.645Z",
+    "role": 4,
+    "team": 2,
+    "sub_team": 4,
+    "salary_per_hour": "100.00",
+    "monthly_salary": "17600.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 77,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$oOrQzGwceYpTa1MVAfoAP6$dLKqb+d3of+iRboTZhmAPI9AoEj0FdZOIo6Fq4JQ6io=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "emina@gmail.com",
+    "first_name": "emina",
+    "last_name": "nouisser",
+    "email": "emina@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:41:01.638Z",
+    "role": 4,
+    "team": 2,
+    "sub_team": 4,
+    "salary_per_hour": "100.00",
+    "monthly_salary": "17600.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 78,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$RsAZ1fG28r0PEfQGOAVjUG$HYIV9xpSixFqJSoX8rQ7yzNi/LkEbU0/9D42orOcs6Y=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "emna@gmail.com",
+    "first_name": "emna",
+    "last_name": "hamraoui",
+    "email": "emna@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:41:43Z",
+    "role": 4,
+    "team": 2,
+    "sub_team": 4,
+    "salary_per_hour": "100.00",
+    "monthly_salary": "17600.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 79,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$24FL2hZf8Xyq5prdxu2GB1$dojf2UYbFVb56FolMDCSz46UFRTXlOLuS098V7dncOE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "khouloud@gmail.com",
+    "first_name": "khouloud",
+    "last_name": "bougataya",
+    "email": "khouloud@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:49:05.390Z",
+    "role": 4,
+    "team": 3,
+    "sub_team": 6,
+    "salary_per_hour": "50.00",
+    "monthly_salary": "8800.00",
+    "profile_image": "profiles/Capture_décran_2024-10-14_203136.png",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 80,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$MF62x7DimPH8Sb39UIJA83$a50h58dz41LPoEiqZL1kSc9/sTJnEufKAq6Mpbr3MqA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ala@gmail.com",
+    "first_name": "ala",
+    "last_name": "bahri",
+    "email": "ala@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:50:05Z",
+    "role": 4,
+    "team": 2,
+    "sub_team": 2,
+    "salary_per_hour": "60.00",
+    "monthly_salary": "10560.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 81,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$S7o2d4VtbDM8I3XfNJ1MfO$ffD394nCnCwJia6lAofdB0UqgTUMKETF8UTTzfvKbs4=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "maysa@gmail.com",
+    "first_name": "maysa",
+    "last_name": "ben rached",
+    "email": "maysa@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:50:57.576Z",
+    "role": 4,
+    "team": 2,
+    "sub_team": 2,
+    "salary_per_hour": "60.00",
+    "monthly_salary": "10560.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 82,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$aO1KLceXiPGDwX5H12rvOM$nSqfFaa69BC3V5oYWAw+LqDQ7sJYhzzGufepolJT4h8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "wala@gmail.com",
+    "first_name": "wala",
+    "last_name": "ben alaya",
+    "email": "wala@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:51:32.627Z",
+    "role": 4,
+    "team": 2,
+    "sub_team": 2,
+    "salary_per_hour": "60.00",
+    "monthly_salary": "10560.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 83,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$8buUL9rj7dPzZcQnbQ7Hyc$PDTGELmeQrwbRU/qnC0KTkdCzee2Qg1hEdXJgo3tc00=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "zied@gmail.com",
+    "first_name": "zied",
+    "last_name": "hamdi",
+    "email": "zied@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:52:09.061Z",
+    "role": 4,
+    "team": 3,
+    "sub_team": 6,
+    "salary_per_hour": "60.00",
+    "monthly_salary": "10560.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 84,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Et1jRhUOBIPoOFnt4l3HT5$+qlpPKoWHunlRcinrbeVkjnwlGCG1tnt1oc3vNHcY3I=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "salma@gmail.com",
+    "first_name": "salma",
+    "last_name": "nasri",
+    "email": "salma@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:53:07.637Z",
+    "role": 4,
+    "team": 3,
+    "sub_team": 7,
+    "salary_per_hour": "50.00",
+    "monthly_salary": "8800.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 85,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$4Sa5aN6zGm0tfe6vBJRmT6$V5wL3GJ5n9v2PjlM2bHLaLk87pb5KqGpEVp3f1VD0b8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "zeinb@gmail.com",
+    "first_name": "zeinb",
+    "last_name": "belhaj",
+    "email": "zeinb@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:53:46.278Z",
+    "role": 4,
+    "team": 4,
+    "sub_team": 8,
+    "salary_per_hour": "50.00",
+    "monthly_salary": "8800.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 86,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$wp78eoTbxSqudxCkqZkefA$3cCdRzOzXDIZ9IyIugc7ClbBtqNUXcKzlz6K2KbFDDA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "donia@gmail.com",
+    "first_name": "donia",
+    "last_name": "rayes",
+    "email": "donia@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:54:49.601Z",
+    "role": 4,
+    "team": 2,
+    "sub_team": 4,
+    "salary_per_hour": "90.00",
+    "monthly_salary": "15840.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 87,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$C6j9LEbLFrwxkoeUzLTCso$G8N1yDJuTukODV/cZ3A/4R3RxowbQnzjBH+HR856x6w=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "derin@gmail.com",
+    "first_name": "derin",
+    "last_name": "mansour",
+    "email": "derin@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:56:22Z",
+    "role": 4,
+    "team": 4,
+    "sub_team": 8,
+    "salary_per_hour": "60.00",
+    "monthly_salary": "10560.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 90,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$EdzaiwRHk4pM9lBqzM5hY9$iRSmsLXSbDMnmwPIWVkzxPO6OFPIjYJPXayiKxfZ8xA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "roua@gmail.com",
+    "first_name": "roua",
+    "last_name": "ltaief",
+    "email": "roua@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T13:57:37Z",
+    "role": 4,
+    "team": 4,
+    "sub_team": 8,
+    "salary_per_hour": "60.00",
+    "monthly_salary": "10560.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 100,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$YOUxYtiu67OfhdjZT2LGIy$U2leLczX3cOjcFiimJgce4CftpC5zDpfwIK0iExJzxo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "saja@gmail.com",
+    "first_name": "saja",
+    "last_name": "saja",
+    "email": "saja@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T14:44:15.131Z",
+    "role": 3,
+    "team": null,
+    "sub_team": null,
+    "salary_per_hour": "0.00",
+    "monthly_salary": "0.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 101,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Na11ANRXGTzIVnKaJSsdfc$Az0KY824wuUtmcC9CiLGUn+vUNRXnj93wcCL/0HRiIE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "imen@gmail.com",
+    "first_name": "imen",
+    "last_name": "imen",
+    "email": "imen@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-14T14:45:06.130Z",
+    "role": 3,
+    "team": null,
+    "sub_team": null,
+    "salary_per_hour": "0.00",
+    "monthly_salary": "0.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 107,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$9rziW08gizNX38YcGVwy7I$KBghuDEqrWkhjDmQR0UEfqTM6TsoXyy1ufFpRqKVFWE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "terzi@gmail.com",
+    "first_name": "emna1",
+    "last_name": "terzi",
+    "email": "terzi@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-30T07:42:10.910Z",
+    "role": 4,
+    "team": 2,
+    "sub_team": 5,
+    "salary_per_hour": "50.00",
+    "monthly_salary": "8800.00",
+    "profile_image": "",
+    "must_change_password": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 108,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$E7fF6iYS856VUBIQRlvGGl$eCqTpd79CvnFBnZtFGcPmcjYH0TAtQC23UtP87EAV9o=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "bouabid@gmail.com",
+    "first_name": "mohamed",
+    "last_name": "bouabid",
+    "email": "bouabid@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-08T08:19:06.788Z",
+    "role": 4,
+    "team": 3,
+    "sub_team": 7,
+    "salary_per_hour": "70.00",
+    "monthly_salary": "12320.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 112,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$LIxJniAuKdly4cDeJt58y5$aT8ONGyXjFPlO3WJJOK3dP/FYiqSI38gRAh5ekEsbwg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ghaliabali61@gmail.com",
+    "first_name": "ghalia",
+    "last_name": "bali",
+    "email": "ghaliabali61@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-10T11:16:44.631Z",
+    "role": 2,
+    "team": null,
+    "sub_team": null,
+    "salary_per_hour": "0.00",
+    "monthly_salary": "0.00",
+    "profile_image": "",
+    "must_change_password": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 116,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$F466BIVvgEM4tZ5kzI1Dd6$5JxmPWFvH551V5T/co6qeS40RVh9Q0+LCxWrc/RbAyo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "nadhirhnihina@gmail.com",
+    "first_name": "nadhir",
+    "last_name": "hnihina",
+    "email": "nadhirhnihina@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-10T11:53:44.352Z",
+    "role": 2,
+    "team": null,
+    "sub_team": null,
+    "salary_per_hour": "0.00",
+    "monthly_salary": "0.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 122,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$GcFTJvz5p4flr993EXSd3A$55HYRw0uF1jeMyz2jERtr2FYfZQzHPrede4TAJvLpp0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "bahriferdaws9@gmail.com",
+    "first_name": "fer",
+    "last_name": "bahri",
+    "email": "bahriferdaws9@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-13T10:22:15.115Z",
+    "role": 4,
+    "team": 2,
+    "sub_team": 4,
+    "salary_per_hour": "50.00",
+    "monthly_salary": "8800.00",
+    "profile_image": "",
+    "must_change_password": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 128,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$1uk5CopPjngPuq64Fvrzh5$l5s1L/Bhx5ZBc/ODULhFQjIu7tcLS2zvUospOcbQpiw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "amna@gmail.com",
+    "first_name": "amnaa",
+    "last_name": "boukthir",
+    "email": "amna@gmail.com",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-05-15T22:11:40.402Z",
+    "role": 4,
+    "team": 2,
+    "sub_team": 3,
+    "salary_per_hour": "40.00",
+    "monthly_salary": "7040.00",
+    "profile_image": "",
+    "must_change_password": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 130,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$GSdizeGc1zOM2OixZgkiQN$UPEFm3DRllhyW1A5D1WeTaz/O02CEizqY9dAqkPjJoU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "nadhirhnihina237@gmail.com",
+    "first_name": "nadhir",
+    "last_name": "bougares",
+    "email": "nadhirhnihina237@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-23T11:33:58.699Z",
+    "role": 2,
+    "team": null,
+    "sub_team": null,
+    "salary_per_hour": "0.00",
+    "monthly_salary": "0.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 131,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Oo1ZQniCi3xKbFrjvhp56I$HI8sXHGizFt5sYJFBzq7yDbqwRhQDTMWGo/JF8anjSM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "nadhir@gmail.com",
+    "first_name": "Oumaima",
+    "last_name": "Bougataya",
+    "email": "nadhir@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-23T11:36:22.362Z",
+    "role": 2,
+    "team": null,
+    "sub_team": null,
+    "salary_per_hour": "0.00",
+    "monthly_salary": "0.00",
+    "profile_image": "",
+    "must_change_password": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 132,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Eq2LJGQK6l4l8M9mj1dxt2$UsSuuldWCatBYMtT+5v01ZajfIq4nUbWS2L7yaT2kdo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "maher@gmail.com",
+    "first_name": "Maher",
+    "last_name": "saidi",
+    "email": "maher@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-23T11:48:41.285Z",
+    "role": 2,
+    "team": null,
+    "sub_team": null,
+    "salary_per_hour": "0.00",
+    "monthly_salary": "0.00",
+    "profile_image": "",
+    "must_change_password": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 133,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$i5TViPNm4ubbL4yKQcf0HX$inSC4Vhgr0DMsO9O0svetclbY01m1c+H+0ndO++IEUI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "bougatayaoumayma@gmail.com",
+    "first_name": "Oumaima",
+    "last_name": "Bougataya",
+    "email": "bougatayaoumayma@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-30T21:08:41.403Z",
+    "role": 4,
+    "team": 2,
+    "sub_team": 2,
+    "salary_per_hour": "20.00",
+    "monthly_salary": "3520.00",
+    "profile_image": "",
+    "must_change_password": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 134,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$hKfGfa5M4QWPPunpIefxg0$Qe0TJWjWQCkw3a9Wl711PM/hLQmxn9ARds6wzRr7+KM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "bougatayaines@gmail.com",
+    "first_name": "ines",
+    "last_name": "Bougataya",
+    "email": "bougatayaines@gmail.com",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-06-01T12:06:45.171Z",
+    "role": 3,
+    "team": null,
+    "sub_team": null,
+    "salary_per_hour": "0.00",
+    "monthly_salary": "0.00",
+    "profile_image": "",
+    "must_change_password": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 135,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Svfh8IMa9tqVE9mx69xuyz$0RgGHL5l/7dgfQiDuihUo4YLTR6cPxierl44GTq3lsg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ali@gmail.com",
+    "first_name": "Ali",
+    "last_name": "Ben Ali",
+    "email": "ali@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-01T22:54:58.341Z",
+    "role": 2,
+    "team": null,
+    "sub_team": null,
+    "salary_per_hour": "20.00",
+    "monthly_salary": "3520.00",
+    "profile_image": "",
+    "must_change_password": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 51,
+  "fields": {
+    "name": "Projet Gestion RH",
+    "description": "Nouvelle description",
+    "budget": "15000.00",
+    "budget_used": "3300.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:49:48.427Z",
+    "created_by": 23,
+    "chef_projet": 41,
+    "predicted_cost": "4339.08",
+    "predicted_progress": 100.0,
+    "initial_tasks": 1,
+    "execution_prediction": 0.0,
+    "scope_prediction": 0.0,
+    "members": [
+      61,
+      85,
+      77,
+      90,
+      81,
+      48
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 52,
+  "fields": {
+    "name": "Plateforme e-learning",
+    "description": "cours vidéo + quiz + certificats",
+    "budget": "5000.00",
+    "budget_used": "700.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:50:25.088Z",
+    "created_by": 23,
+    "chef_projet": 41,
+    "predicted_cost": "4200.00",
+    "predicted_progress": 16.7,
+    "initial_tasks": 1,
+    "execution_prediction": 0.0,
+    "scope_prediction": 0.0,
+    "members": [
+      87,
+      79,
+      75,
+      84,
+      70,
+      82
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 53,
+  "fields": {
+    "name": "Site e-commerce",
+    "description": "produits + panier + paiement",
+    "budget": "4000.00",
+    "budget_used": "1160.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-05-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:50:56.013Z",
+    "created_by": 23,
+    "chef_projet": 41,
+    "predicted_cost": "3480.00",
+    "predicted_progress": 33.3,
+    "initial_tasks": 1,
+    "execution_prediction": 0.0,
+    "scope_prediction": 0.0,
+    "members": [
+      87,
+      79,
+      61,
+      72,
+      84,
+      80
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 54,
+  "fields": {
+    "name": "Système de gestion des employés",
+    "description": "CRUD employés + salaires",
+    "budget": "2500.00",
+    "budget_used": "1600.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:51:23.887Z",
+    "created_by": 23,
+    "chef_projet": 41,
+    "predicted_cost": "4800.00",
+    "predicted_progress": 33.3,
+    "initial_tasks": 1,
+    "execution_prediction": 0.0,
+    "scope_prediction": 0.0,
+    "members": [
+      87,
+      85,
+      72,
+      71,
+      81,
+      49
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 55,
+  "fields": {
+    "name": "Application de chat en temps réel",
+    "description": "messagerie instantanée",
+    "budget": "3000.00",
+    "budget_used": "1800.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:51:57.308Z",
+    "created_by": 23,
+    "chef_projet": 41,
+    "predicted_cost": "5400.00",
+    "predicted_progress": 33.3,
+    "initial_tasks": 1,
+    "execution_prediction": 0.0,
+    "scope_prediction": 0.0,
+    "members": [
+      87,
+      77,
+      84,
+      80,
+      49,
+      73
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 56,
+  "fields": {
+    "name": "Portfolio dynamique",
+    "description": "projets + upload images",
+    "budget": "1200.00",
+    "budget_used": "1250.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:52:31.038Z",
+    "created_by": 23,
+    "chef_projet": 41,
+    "predicted_cost": "4375.00",
+    "predicted_progress": 28.6,
+    "initial_tasks": 1,
+    "execution_prediction": 0.0,
+    "scope_prediction": 0.0,
+    "members": [
+      86,
+      68,
+      107,
+      70,
+      81,
+      48
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 58,
+  "fields": {
+    "name": "Application météo",
+    "description": "API météo + affichage",
+    "budget": "900.00",
+    "budget_used": "450.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:53:55.349Z",
+    "created_by": 23,
+    "chef_projet": 41,
+    "predicted_cost": "2700.00",
+    "predicted_progress": 16.7,
+    "initial_tasks": 1,
+    "execution_prediction": 0.0,
+    "scope_prediction": 0.0,
+    "members": [
+      87,
+      79,
+      85,
+      74,
+      82,
+      73
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 59,
+  "fields": {
+    "name": "Gestion de bibliothèque",
+    "description": "livres + emprunts",
+    "budget": "1800.00",
+    "budget_used": "1500.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:54:30.156Z",
+    "created_by": 23,
+    "chef_projet": 41,
+    "predicted_cost": "4500.00",
+    "predicted_progress": 33.3,
+    "initial_tasks": 1,
+    "execution_prediction": 0.0,
+    "scope_prediction": 0.0,
+    "members": [
+      79,
+      83,
+      85,
+      78,
+      86,
+      75
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 60,
+  "fields": {
+    "name": "Plateforme freelance",
+    "description": "clients + travailleurs",
+    "budget": "6000.00",
+    "budget_used": "960.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:54:57.844Z",
+    "created_by": 23,
+    "chef_projet": 41,
+    "predicted_cost": "3360.00",
+    "predicted_progress": 28.6,
+    "initial_tasks": 1,
+    "execution_prediction": 0.0,
+    "scope_prediction": 0.0,
+    "members": [
+      87,
+      61,
+      72,
+      68,
+      80,
+      90,
+      49
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 61,
+  "fields": {
+    "name": "App fitness",
+    "description": "exercices + suivi poids",
+    "budget": "10000.00",
+    "budget_used": "3620.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:55:37.680Z",
+    "created_by": 23,
+    "chef_projet": 59,
+    "predicted_cost": "4774.80",
+    "predicted_progress": 100.0,
+    "initial_tasks": 10,
+    "execution_prediction": 100.0,
+    "scope_prediction": 100.0,
+    "members": [
+      61,
+      86,
+      75,
+      74,
+      84,
+      80,
+      48
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 63,
+  "fields": {
+    "name": "App budget personnel",
+    "description": "dépenses + graphiques",
+    "budget": "10000.00",
+    "budget_used": "2300.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:56:42.649Z",
+    "created_by": 23,
+    "chef_projet": 59,
+    "predicted_cost": "2421.18",
+    "predicted_progress": 100.0,
+    "initial_tasks": 6,
+    "execution_prediction": 100.0,
+    "scope_prediction": 100.0,
+    "members": [
+      79,
+      68,
+      70,
+      90,
+      81,
+      73
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 64,
+  "fields": {
+    "name": "Analyse de ventes",
+    "description": "dashboard + statistiques",
+    "budget": "10000.00",
+    "budget_used": "3160.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:57:12.489Z",
+    "created_by": 23,
+    "chef_projet": 59,
+    "predicted_cost": "4334.19",
+    "predicted_progress": 50.0,
+    "initial_tasks": 5,
+    "execution_prediction": 80.0,
+    "scope_prediction": 100.0,
+    "members": [
+      83,
+      85,
+      86,
+      72,
+      77,
+      90
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 65,
+  "fields": {
+    "name": "Système recommandation produits",
+    "description": "IA suggère produits",
+    "budget": "10000.00",
+    "budget_used": "3500.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:57:45.194Z",
+    "created_by": 23,
+    "chef_projet": 59,
+    "predicted_cost": "8896.95",
+    "predicted_progress": 100.0,
+    "initial_tasks": 7,
+    "execution_prediction": 100.0,
+    "scope_prediction": 100.0,
+    "members": [
+      85,
+      86,
+      72,
+      71,
+      73,
+      48
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 66,
+  "fields": {
+    "name": "Prédiction de prix immobilier",
+    "description": "ML pour estimation",
+    "budget": "10000.00",
+    "budget_used": "3000.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:58:32.561Z",
+    "created_by": 23,
+    "chef_projet": 59,
+    "predicted_cost": "3109.17",
+    "predicted_progress": 98.7,
+    "initial_tasks": 5,
+    "execution_prediction": 100.0,
+    "scope_prediction": 100.0,
+    "members": [
+      87,
+      78,
+      71,
+      84,
+      80,
+      81,
+      49
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 67,
+  "fields": {
+    "name": "Gestion des projets",
+    "description": "tâches + équipes",
+    "budget": "10000.00",
+    "budget_used": "4960.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:59:02.053Z",
+    "created_by": 23,
+    "chef_projet": 59,
+    "predicted_cost": "4987.83",
+    "predicted_progress": 100.0,
+    "initial_tasks": 5,
+    "execution_prediction": 100.0,
+    "scope_prediction": 100.0,
+    "members": [
+      87,
+      71,
+      84,
+      81,
+      49,
+      73
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 68,
+  "fields": {
+    "name": "Système de facturation",
+    "description": "génération factures PDF",
+    "budget": "10000.00",
+    "budget_used": "2350.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T15:59:31.991Z",
+    "created_by": 23,
+    "chef_projet": 59,
+    "predicted_cost": "3436.26",
+    "predicted_progress": 100.0,
+    "initial_tasks": 7,
+    "execution_prediction": 100.0,
+    "scope_prediction": 100.0,
+    "members": [
+      79,
+      71,
+      84,
+      80,
+      90,
+      73
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 69,
+  "fields": {
+    "name": "Plateforme d’événements",
+    "description": "création + réservation",
+    "budget": "10000.00",
+    "budget_used": "3500.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-24",
+    "status": "en_cours",
+    "created_at": "2026-04-13T16:00:11.595Z",
+    "created_by": 23,
+    "chef_projet": 59,
+    "predicted_cost": "3994.65",
+    "predicted_progress": 68.7,
+    "initial_tasks": 6,
+    "execution_prediction": 100.0,
+    "scope_prediction": 100.0,
+    "members": [
+      83,
+      75,
+      77,
+      84,
+      90,
+      48
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 70,
+  "fields": {
+    "name": "Plateforme de blogging",
+    "description": "articles + commentaires",
+    "budget": "10000.00",
+    "budget_used": "3300.00",
+    "start_date": "2026-04-21",
+    "end_date": "2026-06-13",
+    "status": "terminee",
+    "created_at": "2026-04-13T16:02:06.294Z",
+    "created_by": 23,
+    "chef_projet": 59,
+    "predicted_cost": "2681.23",
+    "predicted_progress": 100.0,
+    "initial_tasks": 5,
+    "execution_prediction": 100.0,
+    "scope_prediction": 100.0,
+    "members": [
+      61,
+      72,
+      80,
+      90,
+      82,
+      48
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 71,
+  "fields": {
+    "name": "Système de gestion des rendez-vous",
+    "description": "prise de rendez-vous en ligne (médecin, salon…)",
+    "budget": "3000.00",
+    "budget_used": "400.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T16:03:49.217Z",
+    "created_by": 23,
+    "chef_projet": 69,
+    "predicted_cost": "2400.00",
+    "predicted_progress": 16.7,
+    "initial_tasks": 1,
+    "execution_prediction": 0.0,
+    "scope_prediction": 0.0,
+    "members": [
+      83,
+      72,
+      71,
+      84,
+      90,
+      48
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 73,
+  "fields": {
+    "name": "App recettes cuisine",
+    "description": "recettes + favoris + recherche",
+    "budget": "2000.00",
+    "budget_used": "1280.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-06-13",
+    "status": "en_cours",
+    "created_at": "2026-04-13T16:06:42.935Z",
+    "created_by": 23,
+    "chef_projet": 69,
+    "predicted_cost": "1339.82",
+    "predicted_progress": 55.5,
+    "initial_tasks": 1,
+    "execution_prediction": 0.0,
+    "scope_prediction": 0.0,
+    "members": [
+      79,
+      86,
+      68,
+      77,
+      81
+    ]
+  }
+},
+{
+  "model": "accounts.project",
+  "pk": 74,
+  "fields": {
+    "name": "App de covoiturage",
+    "description": "partage trajets entre utilisateurs",
+    "budget": "6000.00",
+    "budget_used": "540.00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-05-31",
+    "status": "en_cours",
+    "created_at": "2026-04-13T16:07:54.598Z",
+    "created_by": 23,
+    "chef_projet": 100,
+    "predicted_cost": "2700.00",
+    "predicted_progress": 20.0,
+    "initial_tasks": 1,
+    "execution_prediction": 0.0,
+    "scope_prediction": 0.0,
+    "members": [
+      79,
+      77,
+      84,
+      81,
+      73
+    ]
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 66,
+  "fields": {
+    "title": "task 1",
+    "description": "task 1",
+    "project": 61,
+    "assigned_to": 80,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T15:46:41.513Z",
+    "deadline": "2026-04-16"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 67,
+  "fields": {
+    "title": "task 2",
+    "description": "task 2",
+    "project": 61,
+    "assigned_to": 48,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T15:53:52.253Z",
+    "deadline": "2026-04-19"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 68,
+  "fields": {
+    "title": "task3",
+    "description": "task 3",
+    "project": 61,
+    "assigned_to": 86,
+    "created_by": 59,
+    "hours": "10.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-14T15:55:19.414Z",
+    "deadline": "2026-04-16"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 69,
+  "fields": {
+    "title": "task 4",
+    "description": "task 4",
+    "project": 61,
+    "assigned_to": 84,
+    "created_by": 59,
+    "hours": "7.00",
+    "cost": "350.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T15:56:00.545Z",
+    "deadline": "2026-04-22"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 70,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 61,
+    "assigned_to": 75,
+    "created_by": 59,
+    "hours": "8.00",
+    "cost": "400.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T15:56:30.359Z",
+    "deadline": "2026-04-29"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 71,
+  "fields": {
+    "title": "task6",
+    "description": "task61",
+    "project": 61,
+    "assigned_to": 74,
+    "created_by": 59,
+    "hours": "8.00",
+    "cost": "560.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T15:56:59.299Z",
+    "deadline": "2026-05-01"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 77,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 63,
+    "assigned_to": 90,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:10:22.607Z",
+    "deadline": "2026-04-16"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 78,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 63,
+    "assigned_to": 81,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:11:18.529Z",
+    "deadline": "2026-04-23"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 79,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 63,
+    "assigned_to": 79,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:11:43.373Z",
+    "deadline": "2026-04-24"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 80,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 63,
+    "assigned_to": 73,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:12:06.964Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 81,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 63,
+    "assigned_to": 68,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-14T16:12:33.009Z",
+    "deadline": "2026-05-05"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 82,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 63,
+    "assigned_to": 70,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "350.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:13:19.074Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 83,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 64,
+    "assigned_to": 90,
+    "created_by": 59,
+    "hours": "7.00",
+    "cost": "420.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:21:47.773Z",
+    "deadline": "2026-04-17"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 85,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 64,
+    "assigned_to": 77,
+    "created_by": 59,
+    "hours": "7.00",
+    "cost": "700.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:22:46.246Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 86,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 64,
+    "assigned_to": 85,
+    "created_by": 59,
+    "hours": "6.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:23:17.218Z",
+    "deadline": "2026-05-07"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 87,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 64,
+    "assigned_to": 83,
+    "created_by": 59,
+    "hours": "6.00",
+    "cost": "360.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:23:42.846Z",
+    "deadline": "2026-05-08"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 88,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 65,
+    "assigned_to": 72,
+    "created_by": 59,
+    "hours": "8.00",
+    "cost": "400.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:26:04.763Z",
+    "deadline": "2026-04-19"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 90,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 65,
+    "assigned_to": 48,
+    "created_by": 59,
+    "hours": "20.00",
+    "cost": "1000.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:27:24.205Z",
+    "deadline": "2026-04-23"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 91,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 65,
+    "assigned_to": 71,
+    "created_by": 59,
+    "hours": "15.00",
+    "cost": "750.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:27:55.982Z",
+    "deadline": "2026-04-28"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 92,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 65,
+    "assigned_to": 86,
+    "created_by": 59,
+    "hours": "10.00",
+    "cost": "600.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:28:29.834Z",
+    "deadline": "2026-05-07"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 93,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 65,
+    "assigned_to": 85,
+    "created_by": 59,
+    "hours": "18.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-14T16:29:32.387Z",
+    "deadline": "2026-05-08"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 94,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 66,
+    "assigned_to": 49,
+    "created_by": 59,
+    "hours": "10.00",
+    "cost": "500.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:33:53.098Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 95,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 67,
+    "assigned_to": 87,
+    "created_by": 59,
+    "hours": "20.00",
+    "cost": "1200.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:40:17.472Z",
+    "deadline": "2026-04-20"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 97,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 67,
+    "assigned_to": 49,
+    "created_by": 59,
+    "hours": "15.00",
+    "cost": "750.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:42:02.134Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 99,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 67,
+    "assigned_to": 84,
+    "created_by": 59,
+    "hours": "10.00",
+    "cost": "500.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:43:49.148Z",
+    "deadline": "2026-05-01"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 100,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 67,
+    "assigned_to": 73,
+    "created_by": 59,
+    "hours": "10.00",
+    "cost": "500.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:44:29.809Z",
+    "deadline": "2026-05-04"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 101,
+  "fields": {
+    "title": "task8",
+    "description": "task8",
+    "project": 67,
+    "assigned_to": 81,
+    "created_by": 59,
+    "hours": "15.00",
+    "cost": "900.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:45:23.285Z",
+    "deadline": "2026-05-06"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 102,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 68,
+    "assigned_to": 90,
+    "created_by": 59,
+    "hours": "15.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-14T16:51:10.585Z",
+    "deadline": "2026-04-20"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 103,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 68,
+    "assigned_to": 80,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:51:44.902Z",
+    "deadline": "2026-04-22"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 104,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 68,
+    "assigned_to": 79,
+    "created_by": 59,
+    "hours": "6.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:52:12.326Z",
+    "deadline": "2026-04-29"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 105,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 68,
+    "assigned_to": 73,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:52:43.331Z",
+    "deadline": "2026-05-10"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 106,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 68,
+    "assigned_to": 71,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:53:28.254Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 107,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 68,
+    "assigned_to": 84,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:54:07.786Z",
+    "deadline": "2026-05-07"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 108,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 66,
+    "assigned_to": 87,
+    "created_by": 59,
+    "hours": "10.00",
+    "cost": "600.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:55:42.166Z",
+    "deadline": "2026-04-27"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 109,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 66,
+    "assigned_to": 80,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:56:27.788Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 110,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 66,
+    "assigned_to": 78,
+    "created_by": 59,
+    "hours": "6.00",
+    "cost": "600.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T16:56:57.739Z",
+    "deadline": "2026-05-02"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 111,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 66,
+    "assigned_to": 84,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-14T16:57:56.154Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 112,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 69,
+    "assigned_to": 90,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-14T17:01:36.842Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 113,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 69,
+    "assigned_to": 48,
+    "created_by": 59,
+    "hours": "10.00",
+    "cost": "500.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T17:02:05.018Z",
+    "deadline": "2026-04-28"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 114,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 69,
+    "assigned_to": 77,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "500.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T17:02:52.411Z",
+    "deadline": "2026-04-28"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 115,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 69,
+    "assigned_to": 84,
+    "created_by": 59,
+    "hours": "7.00",
+    "cost": "350.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T17:03:38.849Z",
+    "deadline": "2026-05-01"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 116,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 69,
+    "assigned_to": 83,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-14T17:04:36.813Z",
+    "deadline": "2026-04-23"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 117,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 69,
+    "assigned_to": 77,
+    "created_by": 59,
+    "hours": "10.00",
+    "cost": "1000.00",
+    "status": "terminee",
+    "created_at": "2026-04-15T10:47:38.803Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 119,
+  "fields": {
+    "title": "task7",
+    "description": "task7",
+    "project": 65,
+    "assigned_to": 48,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-15T12:03:30.318Z",
+    "deadline": "2026-04-23"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 120,
+  "fields": {
+    "title": "task7",
+    "description": "task7",
+    "project": 68,
+    "assigned_to": 79,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-15T12:06:14.940Z",
+    "deadline": "2026-04-17"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 121,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 70,
+    "assigned_to": 61,
+    "created_by": 59,
+    "hours": "10.00",
+    "cost": "700.00",
+    "status": "terminee",
+    "created_at": "2026-04-15T13:43:56.468Z",
+    "deadline": "2026-04-24"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 122,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 70,
+    "assigned_to": 48,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-15T13:45:53.724Z",
+    "deadline": "2026-04-23"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 124,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 70,
+    "assigned_to": 90,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-15T13:47:00.658Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 125,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 70,
+    "assigned_to": 80,
+    "created_by": 59,
+    "hours": "2.00",
+    "cost": "120.00",
+    "status": "terminee",
+    "created_at": "2026-04-15T13:48:27.534Z",
+    "deadline": "2026-04-16"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 126,
+  "fields": {
+    "title": "task8",
+    "description": "task8",
+    "project": 63,
+    "assigned_to": 73,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-16T11:14:50.741Z",
+    "deadline": "2026-04-19"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 127,
+  "fields": {
+    "title": "task7",
+    "description": "task7",
+    "project": 61,
+    "assigned_to": 74,
+    "created_by": 59,
+    "hours": "3.00",
+    "cost": "210.00",
+    "status": "terminee",
+    "created_at": "2026-04-20T11:14:37.248Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 130,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 70,
+    "assigned_to": 80,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T11:40:16.200Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 131,
+  "fields": {
+    "title": "task7",
+    "description": "task7",
+    "project": 70,
+    "assigned_to": 90,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T11:40:53.651Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 132,
+  "fields": {
+    "title": "task8",
+    "description": "task83",
+    "project": 70,
+    "assigned_to": 72,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T11:41:21.552Z",
+    "deadline": "2026-06-09"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 133,
+  "fields": {
+    "title": "task7",
+    "description": "task7",
+    "project": 69,
+    "assigned_to": 83,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-21T11:41:59.031Z",
+    "deadline": "2026-05-09"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 134,
+  "fields": {
+    "title": "task8",
+    "description": "task8",
+    "project": 69,
+    "assigned_to": 77,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "500.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T11:42:25.173Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 135,
+  "fields": {
+    "title": "task9",
+    "description": "task9",
+    "project": 69,
+    "assigned_to": 90,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-21T11:42:51.088Z",
+    "deadline": "2026-05-10"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 136,
+  "fields": {
+    "title": "task8",
+    "description": "task8",
+    "project": 68,
+    "assigned_to": 73,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T11:43:30.828Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 137,
+  "fields": {
+    "title": "task9",
+    "description": "task9",
+    "project": 68,
+    "assigned_to": 71,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T11:43:59.755Z",
+    "deadline": "2026-05-09"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 138,
+  "fields": {
+    "title": "task10",
+    "description": "task10",
+    "project": 68,
+    "assigned_to": 84,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T11:44:29.133Z",
+    "deadline": "2026-05-08"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 139,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 67,
+    "assigned_to": 71,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T11:45:46.414Z",
+    "deadline": "2026-05-07"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 140,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 67,
+    "assigned_to": 71,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T11:46:29.979Z",
+    "deadline": "2026-05-05"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 141,
+  "fields": {
+    "title": "task7",
+    "description": "task7",
+    "project": 67,
+    "assigned_to": 73,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T11:47:59.294Z",
+    "deadline": "2026-05-09"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 142,
+  "fields": {
+    "title": "task9",
+    "description": "task9",
+    "project": 67,
+    "assigned_to": 81,
+    "created_by": 59,
+    "hours": "6.00",
+    "cost": "360.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T11:48:30.008Z",
+    "deadline": "2026-05-08"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 143,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 66,
+    "assigned_to": 78,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "500.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T11:49:26.103Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 144,
+  "fields": {
+    "title": "task7",
+    "description": "task7",
+    "project": 66,
+    "assigned_to": 80,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-21T11:49:50.085Z",
+    "deadline": "2026-05-08"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 145,
+  "fields": {
+    "title": "task8",
+    "description": "task8",
+    "project": 66,
+    "assigned_to": 87,
+    "created_by": 59,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-21T11:50:26.091Z",
+    "deadline": "2026-05-06"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 146,
+  "fields": {
+    "title": "task8",
+    "description": "task8",
+    "project": 65,
+    "assigned_to": 85,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T11:51:31.348Z",
+    "deadline": "2026-05-09"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 147,
+  "fields": {
+    "title": "task9",
+    "description": "task9",
+    "project": 65,
+    "assigned_to": 71,
+    "created_by": 59,
+    "hours": "6.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-21T11:51:55.661Z",
+    "deadline": "2026-05-09"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 148,
+  "fields": {
+    "title": "task10",
+    "description": "task10",
+    "project": 65,
+    "assigned_to": 86,
+    "created_by": 59,
+    "hours": "6.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-21T11:52:31.951Z",
+    "deadline": "2026-05-08"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 149,
+  "fields": {
+    "title": "task11",
+    "description": "task11",
+    "project": 65,
+    "assigned_to": 72,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-21T11:52:55.034Z",
+    "deadline": "2026-05-10"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 150,
+  "fields": {
+    "title": "task7",
+    "description": "task7",
+    "project": 64,
+    "assigned_to": 83,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-21T11:53:44.403Z",
+    "deadline": "2026-05-08"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 151,
+  "fields": {
+    "title": "task8",
+    "description": "task8",
+    "project": 64,
+    "assigned_to": 77,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-21T11:54:06.576Z",
+    "deadline": "2026-05-09"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 152,
+  "fields": {
+    "title": "task9",
+    "description": "task9",
+    "project": 64,
+    "assigned_to": 90,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T11:54:36.640Z",
+    "deadline": "2026-05-07"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 153,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 64,
+    "assigned_to": 72,
+    "created_by": 59,
+    "hours": "6.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-21T12:04:42.821Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 154,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 64,
+    "assigned_to": 90,
+    "created_by": 59,
+    "hours": "8.00",
+    "cost": "480.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T12:05:10.602Z",
+    "deadline": "2026-05-07"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 155,
+  "fields": {
+    "title": "task10",
+    "description": "task10",
+    "project": 69,
+    "assigned_to": 83,
+    "created_by": 59,
+    "hours": "7.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-21T12:13:59.947Z",
+    "deadline": "2026-05-08"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 156,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 65,
+    "assigned_to": 73,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T12:16:35.169Z",
+    "deadline": "2026-05-10"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 157,
+  "fields": {
+    "title": "task7",
+    "description": "task7",
+    "project": 63,
+    "assigned_to": 73,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-21T12:17:32.002Z",
+    "deadline": "2026-05-03"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 158,
+  "fields": {
+    "title": "task9",
+    "description": "task9",
+    "project": 63,
+    "assigned_to": 70,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "350.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T12:18:07.339Z",
+    "deadline": "2026-05-08"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 159,
+  "fields": {
+    "title": "task10",
+    "description": "task10",
+    "project": 63,
+    "assigned_to": 90,
+    "created_by": 59,
+    "hours": "9.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-21T12:18:37.961Z",
+    "deadline": "2026-05-10"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 160,
+  "fields": {
+    "title": "task11",
+    "description": "task11",
+    "project": 63,
+    "assigned_to": 79,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T12:19:10.930Z",
+    "deadline": "2026-05-10"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 161,
+  "fields": {
+    "title": "task8",
+    "description": "task8",
+    "project": 61,
+    "assigned_to": 74,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "350.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T12:19:57.205Z",
+    "deadline": "2026-04-30"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 162,
+  "fields": {
+    "title": "task9",
+    "description": "task9",
+    "project": 61,
+    "assigned_to": 86,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T12:20:21.337Z",
+    "deadline": "2026-05-09"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 163,
+  "fields": {
+    "title": "task10",
+    "description": "task10",
+    "project": 61,
+    "assigned_to": 48,
+    "created_by": 59,
+    "hours": "6.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T12:20:55.493Z",
+    "deadline": "2026-05-09"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 164,
+  "fields": {
+    "title": "task11",
+    "description": "task11",
+    "project": 69,
+    "assigned_to": 48,
+    "created_by": 59,
+    "hours": "7.00",
+    "cost": "350.00",
+    "status": "terminee",
+    "created_at": "2026-04-21T12:21:38.294Z",
+    "deadline": "2026-05-09"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 165,
+  "fields": {
+    "title": "task10",
+    "description": "task10",
+    "project": 64,
+    "assigned_to": 90,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-22T19:43:28.075Z",
+    "deadline": "2026-05-10"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 166,
+  "fields": {
+    "title": "task10",
+    "description": "task10",
+    "project": 64,
+    "assigned_to": 90,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-22T19:48:52.499Z",
+    "deadline": "2026-05-10"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 167,
+  "fields": {
+    "title": "task10",
+    "description": "task10",
+    "project": 64,
+    "assigned_to": 90,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-22T19:51:54.270Z",
+    "deadline": "2026-05-10"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 168,
+  "fields": {
+    "title": "task13",
+    "description": "task13",
+    "project": 67,
+    "assigned_to": 49,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-22T20:00:08.023Z",
+    "deadline": "2026-05-10"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 169,
+  "fields": {
+    "title": "task12",
+    "description": "task12",
+    "project": 64,
+    "assigned_to": 72,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-23T15:54:28.446Z",
+    "deadline": "2026-05-08"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 170,
+  "fields": {
+    "title": "task11",
+    "description": "task11",
+    "project": 64,
+    "assigned_to": 90,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "300.00",
+    "status": "terminee",
+    "created_at": "2026-04-23T16:02:39.971Z",
+    "deadline": "2026-05-09"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 171,
+  "fields": {
+    "title": "task14",
+    "description": "task14",
+    "project": 64,
+    "assigned_to": 72,
+    "created_by": 59,
+    "hours": "3.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-23T16:19:27.742Z",
+    "deadline": "2026-05-09"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 172,
+  "fields": {
+    "title": "task",
+    "description": "task",
+    "project": 64,
+    "assigned_to": 77,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-23T16:30:17.353Z",
+    "deadline": "2026-05-09"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 173,
+  "fields": {
+    "title": "task15",
+    "description": "task15",
+    "project": 61,
+    "assigned_to": 61,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "350.00",
+    "status": "terminee",
+    "created_at": "2026-04-26T19:39:27.805Z",
+    "deadline": "2026-04-29"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 174,
+  "fields": {
+    "title": "task15",
+    "description": "task15",
+    "project": 61,
+    "assigned_to": 74,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-04-28T20:32:53.709Z",
+    "deadline": "2026-05-10"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 175,
+  "fields": {
+    "title": "task16",
+    "description": "task16",
+    "project": 61,
+    "assigned_to": 84,
+    "created_by": 59,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-04-28T20:36:21.203Z",
+    "deadline": "2026-05-10"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 176,
+  "fields": {
+    "title": "task11",
+    "description": "task11",
+    "project": 66,
+    "assigned_to": 84,
+    "created_by": 59,
+    "hours": "10.00",
+    "cost": "500.00",
+    "status": "terminee",
+    "created_at": "2026-04-29T12:29:19.145Z",
+    "deadline": "2026-05-10"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 177,
+  "fields": {
+    "title": "task16",
+    "description": "task16",
+    "project": 70,
+    "assigned_to": 82,
+    "created_by": 59,
+    "hours": "8.00",
+    "cost": "480.00",
+    "status": "terminee",
+    "created_at": "2026-05-01T17:39:55.702Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 178,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 60,
+    "assigned_to": 61,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "560.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:21:30.850Z",
+    "deadline": "2026-05-12"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 179,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 60,
+    "assigned_to": 49,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "400.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:22:33.888Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 180,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 60,
+    "assigned_to": 72,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:23:36.928Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 181,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 60,
+    "assigned_to": 90,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:23:59.785Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 182,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 60,
+    "assigned_to": 80,
+    "created_by": 41,
+    "hours": "9.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:24:24.598Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 183,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 60,
+    "assigned_to": 87,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:24:43.553Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 184,
+  "fields": {
+    "title": "task7",
+    "description": "task7",
+    "project": 60,
+    "assigned_to": 68,
+    "created_by": 41,
+    "hours": "6.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:25:17.689Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 185,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 59,
+    "assigned_to": 79,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:27:30.227Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 186,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 59,
+    "assigned_to": 75,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:28:14.601Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 187,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 59,
+    "assigned_to": 78,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "1000.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:28:36.420Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 188,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 59,
+    "assigned_to": 85,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "500.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:29:00.527Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 189,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 59,
+    "assigned_to": 83,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:29:43.377Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 190,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 59,
+    "assigned_to": 86,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:30:02.774Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 191,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 58,
+    "assigned_to": 79,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:31:16.134Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 192,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 58,
+    "assigned_to": 87,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:31:59.523Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 193,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 58,
+    "assigned_to": 74,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:32:18.997Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 194,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 58,
+    "assigned_to": 73,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:32:41.260Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 195,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 58,
+    "assigned_to": 82,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:33:07.193Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 196,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 58,
+    "assigned_to": 85,
+    "created_by": 41,
+    "hours": "9.00",
+    "cost": "450.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:33:28.537Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 197,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 56,
+    "assigned_to": 48,
+    "created_by": 41,
+    "hours": "5.00",
+    "cost": "250.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:34:45.178Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 198,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 56,
+    "assigned_to": 70,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_cours",
+    "created_at": "2026-05-03T11:35:08.197Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 199,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 56,
+    "assigned_to": 81,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_cours",
+    "created_at": "2026-05-03T11:35:27.559Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 200,
+  "fields": {
+    "title": "task7",
+    "description": "task7",
+    "project": 56,
+    "assigned_to": 68,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "1000.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:35:46.365Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 201,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 56,
+    "assigned_to": 68,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:36:13.988Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 202,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 56,
+    "assigned_to": 86,
+    "created_by": 41,
+    "hours": "9.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:36:33.546Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 203,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 56,
+    "assigned_to": 107,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:36:53.495Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 204,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 55,
+    "assigned_to": 49,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "400.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:39:30.963Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 205,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 55,
+    "assigned_to": 80,
+    "created_by": 41,
+    "hours": "12.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:39:49.347Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 206,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 55,
+    "assigned_to": 87,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:40:09.237Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 207,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 55,
+    "assigned_to": 77,
+    "created_by": 41,
+    "hours": "14.00",
+    "cost": "1400.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:40:29.419Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 208,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 55,
+    "assigned_to": 84,
+    "created_by": 41,
+    "hours": "9.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:41:04.100Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 209,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 55,
+    "assigned_to": 73,
+    "created_by": 41,
+    "hours": "9.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:41:22.842Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 210,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 54,
+    "assigned_to": 49,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:42:01.491Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 211,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 54,
+    "assigned_to": 72,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:42:37.785Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 212,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 54,
+    "assigned_to": 71,
+    "created_by": 41,
+    "hours": "14.00",
+    "cost": "700.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:42:58.951Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 213,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 54,
+    "assigned_to": 87,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:43:25.649Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 214,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 54,
+    "assigned_to": 81,
+    "created_by": 41,
+    "hours": "15.00",
+    "cost": "900.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:43:45.340Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 215,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 54,
+    "assigned_to": 85,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:44:06.288Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 216,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 53,
+    "assigned_to": 61,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "560.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:45:07.079Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 217,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 53,
+    "assigned_to": 72,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:45:41.094Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 218,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 53,
+    "assigned_to": 79,
+    "created_by": 41,
+    "hours": "15.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:45:59.751Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 219,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 53,
+    "assigned_to": 80,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:46:50.064Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 220,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 53,
+    "assigned_to": 87,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "600.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:47:07.477Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 221,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 53,
+    "assigned_to": 84,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:47:23.724Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 222,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 52,
+    "assigned_to": 79,
+    "created_by": 41,
+    "hours": "15.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:48:00.460Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 223,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 52,
+    "assigned_to": 75,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:48:30.725Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 224,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 52,
+    "assigned_to": 70,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "700.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:48:59.165Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 225,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 52,
+    "assigned_to": 87,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:49:16.251Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 226,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 52,
+    "assigned_to": 84,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:49:35.480Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 227,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 52,
+    "assigned_to": 82,
+    "created_by": 41,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:50:03.324Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 228,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 51,
+    "assigned_to": 61,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "700.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:50:42.274Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 229,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 51,
+    "assigned_to": 48,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "500.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:51:00.730Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 230,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 51,
+    "assigned_to": 90,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-03T11:51:15.785Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 231,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 51,
+    "assigned_to": 77,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "1000.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:51:31.556Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 232,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 51,
+    "assigned_to": 81,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "600.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:51:47.932Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 233,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 51,
+    "assigned_to": 85,
+    "created_by": 41,
+    "hours": "10.00",
+    "cost": "500.00",
+    "status": "terminee",
+    "created_at": "2026-05-03T11:52:10.270Z",
+    "deadline": "2026-05-13"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 263,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 74,
+    "assigned_to": 79,
+    "created_by": 69,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-07T11:04:27.245Z",
+    "deadline": "2026-06-07"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 264,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 74,
+    "assigned_to": 77,
+    "created_by": 69,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-07T11:04:45.244Z",
+    "deadline": "2026-06-06"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 265,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 74,
+    "assigned_to": 84,
+    "created_by": 69,
+    "hours": "9.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-07T11:05:08.244Z",
+    "deadline": "2026-06-06"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 266,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 74,
+    "assigned_to": 82,
+    "created_by": 69,
+    "hours": "9.00",
+    "cost": "540.00",
+    "status": "terminee",
+    "created_at": "2026-05-07T11:05:25.621Z",
+    "deadline": "2026-06-06"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 267,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 74,
+    "assigned_to": 86,
+    "created_by": 69,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-07T11:05:43.044Z",
+    "deadline": "2026-06-07"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 268,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 73,
+    "assigned_to": 79,
+    "created_by": 69,
+    "hours": "5.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-07T11:06:29.788Z",
+    "deadline": "2026-06-06"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 269,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 73,
+    "assigned_to": 77,
+    "created_by": 69,
+    "hours": "9.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-07T11:06:53.351Z",
+    "deadline": "2026-05-23"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 270,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 73,
+    "assigned_to": 81,
+    "created_by": 69,
+    "hours": "8.00",
+    "cost": "480.00",
+    "status": "terminee",
+    "created_at": "2026-05-07T11:07:33.778Z",
+    "deadline": "2026-06-06"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 271,
+  "fields": {
+    "title": "task4",
+    "description": "tas4",
+    "project": 73,
+    "assigned_to": 68,
+    "created_by": 69,
+    "hours": "8.00",
+    "cost": "800.00",
+    "status": "terminee",
+    "created_at": "2026-05-07T11:07:51.491Z",
+    "deadline": "2026-06-06"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 272,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 73,
+    "assigned_to": 86,
+    "created_by": 69,
+    "hours": "9.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-07T11:08:10.638Z",
+    "deadline": "2026-06-06"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 273,
+  "fields": {
+    "title": "task1",
+    "description": "task1",
+    "project": 71,
+    "assigned_to": 48,
+    "created_by": 69,
+    "hours": "8.00",
+    "cost": "400.00",
+    "status": "terminee",
+    "created_at": "2026-05-07T11:08:54.854Z",
+    "deadline": "2026-06-05"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 274,
+  "fields": {
+    "title": "task2",
+    "description": "task2",
+    "project": 71,
+    "assigned_to": 72,
+    "created_by": 69,
+    "hours": "9.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-07T11:09:13.341Z",
+    "deadline": "2026-06-06"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 275,
+  "fields": {
+    "title": "task3",
+    "description": "task3",
+    "project": 71,
+    "assigned_to": 90,
+    "created_by": 69,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-07T11:09:34.341Z",
+    "deadline": "2026-06-07"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 276,
+  "fields": {
+    "title": "task4",
+    "description": "task4",
+    "project": 71,
+    "assigned_to": 71,
+    "created_by": 69,
+    "hours": "9.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-07T11:10:03.634Z",
+    "deadline": "2026-06-06"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 277,
+  "fields": {
+    "title": "task5",
+    "description": "task5",
+    "project": 71,
+    "assigned_to": 84,
+    "created_by": 69,
+    "hours": "9.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-07T11:10:27.591Z",
+    "deadline": "2026-06-07"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 278,
+  "fields": {
+    "title": "task6",
+    "description": "task6",
+    "project": 71,
+    "assigned_to": 83,
+    "created_by": 69,
+    "hours": "9.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-07T11:10:53.122Z",
+    "deadline": "2026-06-06"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 285,
+  "fields": {
+    "title": "task18",
+    "description": "task11",
+    "project": 69,
+    "assigned_to": 83,
+    "created_by": 59,
+    "hours": "8.00",
+    "cost": "0.00",
+    "status": "en_attente",
+    "created_at": "2026-05-08T19:03:43.296Z",
+    "deadline": "2026-05-29"
+  }
+},
+{
+  "model": "accounts.task",
+  "pk": 288,
+  "fields": {
+    "title": "tache20",
+    "description": "tache19",
+    "project": 70,
+    "assigned_to": 82,
+    "created_by": 59,
+    "hours": "10.00",
+    "cost": "600.00",
+    "status": "terminee",
+    "created_at": "2026-05-21T21:12:02.996Z",
+    "deadline": "2026-05-30"
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 31,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour App fitness",
+    "is_read": true,
+    "created_at": "2026-04-14T15:56:59.311Z",
+    "type": "warning",
+    "project": 61
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 32,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour App budget personnel",
+    "is_read": true,
+    "created_at": "2026-04-14T16:12:06.984Z",
+    "type": "warning",
+    "project": 63
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 33,
+  "fields": {
+    "user": 23,
+    "message": " Budget dépassé pour App budget personnel",
+    "is_read": false,
+    "created_at": "2026-04-14T16:12:33.026Z",
+    "type": "danger",
+    "project": 63
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 34,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour Analyse de ventes",
+    "is_read": true,
+    "created_at": "2026-04-14T16:23:42.866Z",
+    "type": "warning",
+    "project": 64
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 35,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour Gestion des projets",
+    "is_read": true,
+    "created_at": "2026-04-14T16:42:30.138Z",
+    "type": "warning",
+    "project": 67
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 36,
+  "fields": {
+    "user": 23,
+    "message": " Budget dépassé pour Gestion des projets",
+    "is_read": true,
+    "created_at": "2026-04-14T16:43:49.170Z",
+    "type": "danger",
+    "project": 67
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 37,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour Système de facturation",
+    "is_read": true,
+    "created_at": "2026-04-14T16:53:28.277Z",
+    "type": "warning",
+    "project": 68
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 38,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour Plateforme d’événements",
+    "is_read": true,
+    "created_at": "2026-04-15T10:47:38.827Z",
+    "type": "warning",
+    "project": 69
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 39,
+  "fields": {
+    "user": 23,
+    "message": " Budget dépassé pour App budget personnel",
+    "is_read": false,
+    "created_at": "2026-04-15T12:01:07.701Z",
+    "type": "danger",
+    "project": 63
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 40,
+  "fields": {
+    "user": 23,
+    "message": " Budget dépassé pour Système de facturation",
+    "is_read": true,
+    "created_at": "2026-04-15T12:06:14.968Z",
+    "type": "danger",
+    "project": 68
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 41,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour Plateforme de blogging",
+    "is_read": true,
+    "created_at": "2026-04-15T14:05:38.746Z",
+    "type": "warning",
+    "project": 70
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 44,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour Plateforme d’événements",
+    "is_read": true,
+    "created_at": "2026-04-21T12:23:20.013Z",
+    "type": "warning",
+    "project": 69
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 45,
+  "fields": {
+    "user": 23,
+    "message": " Budget dépassé pour Plateforme d’événements",
+    "is_read": false,
+    "created_at": "2026-04-23T16:40:48.349Z",
+    "type": "danger",
+    "project": 69
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 46,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour App budget personnel",
+    "is_read": true,
+    "created_at": "2026-04-23T16:40:49.433Z",
+    "type": "warning",
+    "project": 63
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 47,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour App fitness",
+    "is_read": true,
+    "created_at": "2026-04-23T16:40:50.040Z",
+    "type": "warning",
+    "project": 61
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 48,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour Système de facturation",
+    "is_read": true,
+    "created_at": "2026-04-23T16:40:50.323Z",
+    "type": "warning",
+    "project": 68
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 49,
+  "fields": {
+    "user": 23,
+    "message": " Budget dépassé pour App budget personnel",
+    "is_read": false,
+    "created_at": "2026-04-23T16:40:50.891Z",
+    "type": "danger",
+    "project": 63
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 50,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour Gestion des projets",
+    "is_read": true,
+    "created_at": "2026-04-23T16:40:51.180Z",
+    "type": "warning",
+    "project": 67
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 51,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour Système recommandation produits",
+    "is_read": true,
+    "created_at": "2026-04-23T16:40:55.829Z",
+    "type": "warning",
+    "project": 65
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 52,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour Prédiction de prix immobilier",
+    "is_read": true,
+    "created_at": "2026-04-23T16:40:56.118Z",
+    "type": "warning",
+    "project": 66
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 53,
+  "fields": {
+    "user": 23,
+    "message": " Budget dépassé pour Gestion des projets",
+    "is_read": false,
+    "created_at": "2026-04-23T16:40:56.961Z",
+    "type": "danger",
+    "project": 67
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 54,
+  "fields": {
+    "user": 23,
+    "message": " Budget dépassé pour App fitness",
+    "is_read": true,
+    "created_at": "2026-04-23T16:40:58.730Z",
+    "type": "danger",
+    "project": 61
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 55,
+  "fields": {
+    "user": 23,
+    "message": " Budget dépassé pour Système de facturation",
+    "is_read": true,
+    "created_at": "2026-04-23T16:41:00.577Z",
+    "type": "danger",
+    "project": 68
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 56,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour Portfolio dynamique",
+    "is_read": true,
+    "created_at": "2026-05-03T12:00:04.175Z",
+    "type": "warning",
+    "project": 56
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 57,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour Gestion de bibliothèque",
+    "is_read": true,
+    "created_at": "2026-05-03T12:00:38.415Z",
+    "type": "warning",
+    "project": 59
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 58,
+  "fields": {
+    "user": 23,
+    "message": " Budget atteint 80% pour Application de gestion des tâches",
+    "is_read": true,
+    "created_at": "2026-05-07T11:11:32.406Z",
+    "type": "warning",
+    "project": 51
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 59,
+  "fields": {
+    "user": 23,
+    "message": "Le budget du projet Application de gestion des tâches a été dépassé",
+    "is_read": true,
+    "created_at": "2026-05-21T20:24:27.936Z",
+    "type": "danger",
+    "project": 51
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 60,
+  "fields": {
+    "user": 23,
+    "message": "Le budget du projet Portfolio dynamique a été dépassé",
+    "is_read": true,
+    "created_at": "2026-05-30T11:18:20.025Z",
+    "type": "danger",
+    "project": 56
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 61,
+  "fields": {
+    "user": 23,
+    "message": "Le projet App de covoiturage est en retard",
+    "is_read": false,
+    "created_at": "2026-06-01T17:22:24.663Z",
+    "type": "delay",
+    "project": 74
+  }
+},
+{
+  "model": "accounts.notification",
+  "pk": 62,
+  "fields": {
+    "user": 23,
+    "message": "Le projet Site e-commerce est en retard",
+    "is_read": false,
+    "created_at": "2026-06-01T17:22:24.686Z",
+    "type": "delay",
+    "project": 53
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 40,
+  "fields": {
+    "project": 64,
+    "date": "2026-04-15",
+    "total_cost": "700.00",
+    "total_tasks": 5,
+    "completed_tasks": 1,
+    "progress": 20.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 41,
+  "fields": {
+    "project": 66,
+    "date": "2026-04-15",
+    "total_cost": "300.00",
+    "total_tasks": 5,
+    "completed_tasks": 1,
+    "progress": 20.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 42,
+  "fields": {
+    "project": 61,
+    "date": "2026-04-15",
+    "total_cost": "350.00",
+    "total_tasks": 6,
+    "completed_tasks": 1,
+    "progress": 10.0,
+    "scope_change": -4
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 43,
+  "fields": {
+    "project": 70,
+    "date": "2026-04-15",
+    "total_cost": "700.00",
+    "total_tasks": 5,
+    "completed_tasks": 1,
+    "progress": 20.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 44,
+  "fields": {
+    "project": 67,
+    "date": "2026-04-15",
+    "total_cost": "1200.00",
+    "total_tasks": 5,
+    "completed_tasks": 1,
+    "progress": 20.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 45,
+  "fields": {
+    "project": 69,
+    "date": "2026-04-15",
+    "total_cost": "850.00",
+    "total_tasks": 6,
+    "completed_tasks": 2,
+    "progress": 33.33333333333333,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 46,
+  "fields": {
+    "project": 65,
+    "date": "2026-04-15",
+    "total_cost": "600.00",
+    "total_tasks": 7,
+    "completed_tasks": 1,
+    "progress": 14.285714285714285,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 47,
+  "fields": {
+    "project": 51,
+    "date": "2026-04-15",
+    "total_cost": "0.00",
+    "total_tasks": 0,
+    "completed_tasks": 0,
+    "progress": 0.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 48,
+  "fields": {
+    "project": 52,
+    "date": "2026-04-15",
+    "total_cost": "0.00",
+    "total_tasks": 0,
+    "completed_tasks": 0,
+    "progress": 0.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 49,
+  "fields": {
+    "project": 53,
+    "date": "2026-04-15",
+    "total_cost": "0.00",
+    "total_tasks": 0,
+    "completed_tasks": 0,
+    "progress": 0.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 50,
+  "fields": {
+    "project": 54,
+    "date": "2026-04-15",
+    "total_cost": "0.00",
+    "total_tasks": 0,
+    "completed_tasks": 0,
+    "progress": 0.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 51,
+  "fields": {
+    "project": 55,
+    "date": "2026-04-15",
+    "total_cost": "0.00",
+    "total_tasks": 0,
+    "completed_tasks": 0,
+    "progress": 0.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 52,
+  "fields": {
+    "project": 56,
+    "date": "2026-04-15",
+    "total_cost": "0.00",
+    "total_tasks": 0,
+    "completed_tasks": 0,
+    "progress": 0.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 54,
+  "fields": {
+    "project": 68,
+    "date": "2026-04-15",
+    "total_cost": "550.00",
+    "total_tasks": 7,
+    "completed_tasks": 2,
+    "progress": 28.57142857142857,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 55,
+  "fields": {
+    "project": 58,
+    "date": "2026-04-15",
+    "total_cost": "0.00",
+    "total_tasks": 0,
+    "completed_tasks": 0,
+    "progress": 0.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 58,
+  "fields": {
+    "project": 59,
+    "date": "2026-04-15",
+    "total_cost": "0.00",
+    "total_tasks": 0,
+    "completed_tasks": 0,
+    "progress": 0.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 61,
+  "fields": {
+    "project": 60,
+    "date": "2026-04-15",
+    "total_cost": "0.00",
+    "total_tasks": 0,
+    "completed_tasks": 0,
+    "progress": 0.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 62,
+  "fields": {
+    "project": 63,
+    "date": "2026-04-15",
+    "total_cost": "350.00",
+    "total_tasks": 6,
+    "completed_tasks": 1,
+    "progress": 16.666666666666664,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 63,
+  "fields": {
+    "project": 71,
+    "date": "2026-04-15",
+    "total_cost": "0.00",
+    "total_tasks": 0,
+    "completed_tasks": 0,
+    "progress": 0.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 65,
+  "fields": {
+    "project": 73,
+    "date": "2026-04-15",
+    "total_cost": "0.00",
+    "total_tasks": 0,
+    "completed_tasks": 0,
+    "progress": 0.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 66,
+  "fields": {
+    "project": 74,
+    "date": "2026-04-15",
+    "total_cost": "0.00",
+    "total_tasks": 0,
+    "completed_tasks": 0,
+    "progress": 0.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 73,
+  "fields": {
+    "project": 63,
+    "date": "2026-04-16",
+    "total_cost": "650.00",
+    "total_tasks": 7,
+    "completed_tasks": 2,
+    "progress": 33.33333333333333,
+    "scope_change": 1
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 74,
+  "fields": {
+    "project": 61,
+    "date": "2026-04-16",
+    "total_cost": "350.00",
+    "total_tasks": 6,
+    "completed_tasks": 1,
+    "progress": 10.0,
+    "scope_change": -4
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 80,
+  "fields": {
+    "project": 61,
+    "date": "2026-04-19",
+    "total_cost": "750.00",
+    "total_tasks": 6,
+    "completed_tasks": 2,
+    "progress": 20.0,
+    "scope_change": -4
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 81,
+  "fields": {
+    "project": 64,
+    "date": "2026-04-19",
+    "total_cost": "1420.00",
+    "total_tasks": 5,
+    "completed_tasks": 3,
+    "progress": 60.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 82,
+  "fields": {
+    "project": 63,
+    "date": "2026-04-19",
+    "total_cost": "950.00",
+    "total_tasks": 7,
+    "completed_tasks": 3,
+    "progress": 50.0,
+    "scope_change": 1
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 83,
+  "fields": {
+    "project": 65,
+    "date": "2026-04-19",
+    "total_cost": "1480.00",
+    "total_tasks": 7,
+    "completed_tasks": 3,
+    "progress": 42.857142857142854,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 84,
+  "fields": {
+    "project": 70,
+    "date": "2026-04-19",
+    "total_cost": "820.00",
+    "total_tasks": 5,
+    "completed_tasks": 2,
+    "progress": 40.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 85,
+  "fields": {
+    "project": 68,
+    "date": "2026-04-19",
+    "total_cost": "850.00",
+    "total_tasks": 7,
+    "completed_tasks": 3,
+    "progress": 42.857142857142854,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 86,
+  "fields": {
+    "project": 69,
+    "date": "2026-04-19",
+    "total_cost": "1350.00",
+    "total_tasks": 6,
+    "completed_tasks": 3,
+    "progress": 50.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 87,
+  "fields": {
+    "project": 66,
+    "date": "2026-04-19",
+    "total_cost": "900.00",
+    "total_tasks": 5,
+    "completed_tasks": 2,
+    "progress": 40.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 88,
+  "fields": {
+    "project": 67,
+    "date": "2026-04-19",
+    "total_cost": "1950.00",
+    "total_tasks": 5,
+    "completed_tasks": 2,
+    "progress": 40.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 89,
+  "fields": {
+    "project": 69,
+    "date": "2026-04-20",
+    "total_cost": "2350.00",
+    "total_tasks": 6,
+    "completed_tasks": 4,
+    "progress": 66.66666666666666,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 90,
+  "fields": {
+    "project": 63,
+    "date": "2026-04-20",
+    "total_cost": "1200.00",
+    "total_tasks": 7,
+    "completed_tasks": 4,
+    "progress": 66.66666666666666,
+    "scope_change": 1
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 91,
+  "fields": {
+    "project": 70,
+    "date": "2026-04-20",
+    "total_cost": "1070.00",
+    "total_tasks": 5,
+    "completed_tasks": 3,
+    "progress": 60.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 92,
+  "fields": {
+    "project": 61,
+    "date": "2026-04-20",
+    "total_cost": "1000.00",
+    "total_tasks": 7,
+    "completed_tasks": 3,
+    "progress": 30.0,
+    "scope_change": -3
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 93,
+  "fields": {
+    "project": 65,
+    "date": "2026-04-20",
+    "total_cost": "1730.00",
+    "total_tasks": 7,
+    "completed_tasks": 4,
+    "progress": 57.14285714285714,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 94,
+  "fields": {
+    "project": 68,
+    "date": "2026-04-20",
+    "total_cost": "1100.00",
+    "total_tasks": 7,
+    "completed_tasks": 4,
+    "progress": 57.14285714285714,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 95,
+  "fields": {
+    "project": 66,
+    "date": "2026-04-20",
+    "total_cost": "1500.00",
+    "total_tasks": 5,
+    "completed_tasks": 3,
+    "progress": 60.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 96,
+  "fields": {
+    "project": 64,
+    "date": "2026-04-20",
+    "total_cost": "1780.00",
+    "total_tasks": 6,
+    "completed_tasks": 4,
+    "progress": 80.0,
+    "scope_change": 1
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 97,
+  "fields": {
+    "project": 67,
+    "date": "2026-04-20",
+    "total_cost": "2450.00",
+    "total_tasks": 5,
+    "completed_tasks": 3,
+    "progress": 60.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 99,
+  "fields": {
+    "project": 70,
+    "date": "2026-04-21",
+    "total_cost": "1070.00",
+    "total_tasks": 8,
+    "completed_tasks": 3,
+    "progress": 60.0,
+    "scope_change": 3
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 100,
+  "fields": {
+    "project": 69,
+    "date": "2026-04-21",
+    "total_cost": "2850.00",
+    "total_tasks": 11,
+    "completed_tasks": 5,
+    "progress": 83.33333333333334,
+    "scope_change": 5
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 101,
+  "fields": {
+    "project": 68,
+    "date": "2026-04-21",
+    "total_cost": "1350.00",
+    "total_tasks": 10,
+    "completed_tasks": 5,
+    "progress": 71.42857142857143,
+    "scope_change": 3
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 102,
+  "fields": {
+    "project": 67,
+    "date": "2026-04-21",
+    "total_cost": "2700.00",
+    "total_tasks": 9,
+    "completed_tasks": 4,
+    "progress": 80.0,
+    "scope_change": 4
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 103,
+  "fields": {
+    "project": 66,
+    "date": "2026-04-21",
+    "total_cost": "2000.00",
+    "total_tasks": 8,
+    "completed_tasks": 4,
+    "progress": 80.0,
+    "scope_change": 3
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 104,
+  "fields": {
+    "project": 65,
+    "date": "2026-04-21",
+    "total_cost": "2250.00",
+    "total_tasks": 11,
+    "completed_tasks": 4,
+    "progress": 57.14285714285714,
+    "scope_change": 4
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 105,
+  "fields": {
+    "project": 64,
+    "date": "2026-04-21",
+    "total_cost": "1480.00",
+    "total_tasks": 9,
+    "completed_tasks": 3,
+    "progress": 60.0,
+    "scope_change": 4
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 106,
+  "fields": {
+    "project": 63,
+    "date": "2026-04-21",
+    "total_cost": "1550.00",
+    "total_tasks": 11,
+    "completed_tasks": 5,
+    "progress": 83.33333333333334,
+    "scope_change": 5
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 107,
+  "fields": {
+    "project": 61,
+    "date": "2026-04-21",
+    "total_cost": "1000.00",
+    "total_tasks": 10,
+    "completed_tasks": 3,
+    "progress": 30.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 108,
+  "fields": {
+    "project": 64,
+    "date": "2026-04-22",
+    "total_cost": "1480.00",
+    "total_tasks": 12,
+    "completed_tasks": 4,
+    "progress": 80.0,
+    "scope_change": 7
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 109,
+  "fields": {
+    "project": 67,
+    "date": "2026-04-22",
+    "total_cost": "2700.00",
+    "total_tasks": 10,
+    "completed_tasks": 5,
+    "progress": 100.0,
+    "scope_change": 5
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 110,
+  "fields": {
+    "project": 66,
+    "date": "2026-04-22",
+    "total_cost": "2000.00",
+    "total_tasks": 8,
+    "completed_tasks": 5,
+    "progress": 100.0,
+    "scope_change": 3
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 111,
+  "fields": {
+    "project": 61,
+    "date": "2026-04-22",
+    "total_cost": "1000.00",
+    "total_tasks": 10,
+    "completed_tasks": 5,
+    "progress": 50.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 112,
+  "fields": {
+    "project": 63,
+    "date": "2026-04-22",
+    "total_cost": "1550.00",
+    "total_tasks": 11,
+    "completed_tasks": 6,
+    "progress": 100.0,
+    "scope_change": 5
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 113,
+  "fields": {
+    "project": 68,
+    "date": "2026-04-22",
+    "total_cost": "1350.00",
+    "total_tasks": 10,
+    "completed_tasks": 6,
+    "progress": 85.71428571428571,
+    "scope_change": 3
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 114,
+  "fields": {
+    "project": 65,
+    "date": "2026-04-22",
+    "total_cost": "2250.00",
+    "total_tasks": 11,
+    "completed_tasks": 5,
+    "progress": 71.42857142857143,
+    "scope_change": 4
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 115,
+  "fields": {
+    "project": 70,
+    "date": "2026-04-22",
+    "total_cost": "1070.00",
+    "total_tasks": 8,
+    "completed_tasks": 4,
+    "progress": 80.0,
+    "scope_change": 3
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 116,
+  "fields": {
+    "project": 61,
+    "date": "2026-04-23",
+    "total_cost": "3620.00",
+    "total_tasks": 10,
+    "completed_tasks": 8,
+    "progress": 80.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 117,
+  "fields": {
+    "project": 64,
+    "date": "2026-04-23",
+    "total_cost": "5760.00",
+    "total_tasks": 16,
+    "completed_tasks": 5,
+    "progress": 31.25,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 118,
+  "fields": {
+    "project": 68,
+    "date": "2026-04-23",
+    "total_cost": "3250.00",
+    "total_tasks": 10,
+    "completed_tasks": 6,
+    "progress": 60.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 119,
+  "fields": {
+    "project": 70,
+    "date": "2026-04-23",
+    "total_cost": "2470.00",
+    "total_tasks": 8,
+    "completed_tasks": 4,
+    "progress": 50.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 120,
+  "fields": {
+    "project": 69,
+    "date": "2026-04-23",
+    "total_cost": "4820.00",
+    "total_tasks": 11,
+    "completed_tasks": 5,
+    "progress": 45.45454545454545,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 121,
+  "fields": {
+    "project": 66,
+    "date": "2026-04-23",
+    "total_cost": "3530.00",
+    "total_tasks": 8,
+    "completed_tasks": 5,
+    "progress": 62.5,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 122,
+  "fields": {
+    "project": 63,
+    "date": "2026-04-23",
+    "total_cost": "3590.00",
+    "total_tasks": 11,
+    "completed_tasks": 6,
+    "progress": 54.54545454545454,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 123,
+  "fields": {
+    "project": 67,
+    "date": "2026-04-23",
+    "total_cost": "5210.00",
+    "total_tasks": 10,
+    "completed_tasks": 5,
+    "progress": 50.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 124,
+  "fields": {
+    "project": 65,
+    "date": "2026-04-23",
+    "total_cost": "5310.00",
+    "total_tasks": 11,
+    "completed_tasks": 5,
+    "progress": 45.45454545454545,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 125,
+  "fields": {
+    "project": 69,
+    "date": "2026-04-24",
+    "total_cost": "4820.00",
+    "total_tasks": 11,
+    "completed_tasks": 5,
+    "progress": 45.45454545454545,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 126,
+  "fields": {
+    "project": 69,
+    "date": "2026-04-26",
+    "total_cost": "4820.00",
+    "total_tasks": 11,
+    "completed_tasks": 6,
+    "progress": 54.54545454545454,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 127,
+  "fields": {
+    "project": 67,
+    "date": "2026-04-26",
+    "total_cost": "5210.00",
+    "total_tasks": 10,
+    "completed_tasks": 6,
+    "progress": 60.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 128,
+  "fields": {
+    "project": 65,
+    "date": "2026-04-26",
+    "total_cost": "5310.00",
+    "total_tasks": 11,
+    "completed_tasks": 6,
+    "progress": 54.54545454545454,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 129,
+  "fields": {
+    "project": 61,
+    "date": "2026-04-26",
+    "total_cost": "3970.00",
+    "total_tasks": 11,
+    "completed_tasks": 9,
+    "progress": 81.81818181818183,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 130,
+  "fields": {
+    "project": 61,
+    "date": "2026-04-28",
+    "total_cost": "3370.00",
+    "total_tasks": 13,
+    "completed_tasks": 10,
+    "progress": 76.92307692307693,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 131,
+  "fields": {
+    "project": 63,
+    "date": "2026-04-28",
+    "total_cost": "2050.00",
+    "total_tasks": 11,
+    "completed_tasks": 7,
+    "progress": 63.63636363636363,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 132,
+  "fields": {
+    "project": 68,
+    "date": "2026-04-28",
+    "total_cost": "2100.00",
+    "total_tasks": 10,
+    "completed_tasks": 8,
+    "progress": 80.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 133,
+  "fields": {
+    "project": 64,
+    "date": "2026-04-28",
+    "total_cost": "2860.00",
+    "total_tasks": 16,
+    "completed_tasks": 7,
+    "progress": 43.75,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 134,
+  "fields": {
+    "project": 65,
+    "date": "2026-04-28",
+    "total_cost": "3500.00",
+    "total_tasks": 11,
+    "completed_tasks": 7,
+    "progress": 63.63636363636363,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 135,
+  "fields": {
+    "project": 67,
+    "date": "2026-04-28",
+    "total_cost": "4350.00",
+    "total_tasks": 10,
+    "completed_tasks": 7,
+    "progress": 70.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 136,
+  "fields": {
+    "project": 69,
+    "date": "2026-04-28",
+    "total_cost": "3500.00",
+    "total_tasks": 11,
+    "completed_tasks": 7,
+    "progress": 63.63636363636363,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 137,
+  "fields": {
+    "project": 66,
+    "date": "2026-04-28",
+    "total_cost": "2500.00",
+    "total_tasks": 8,
+    "completed_tasks": 5,
+    "progress": 62.5,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 138,
+  "fields": {
+    "project": 70,
+    "date": "2026-04-28",
+    "total_cost": "1620.00",
+    "total_tasks": 8,
+    "completed_tasks": 5,
+    "progress": 62.5,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 139,
+  "fields": {
+    "project": 61,
+    "date": "2026-04-29",
+    "total_cost": "3370.00",
+    "total_tasks": 13,
+    "completed_tasks": 10,
+    "progress": 76.92307692307693,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 140,
+  "fields": {
+    "project": 66,
+    "date": "2026-04-29",
+    "total_cost": "2500.00",
+    "total_tasks": 9,
+    "completed_tasks": 5,
+    "progress": 55.55555555555556,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 141,
+  "fields": {
+    "project": 70,
+    "date": "2026-05-01",
+    "total_cost": "1620.00",
+    "total_tasks": 9,
+    "completed_tasks": 5,
+    "progress": 55.55555555555556,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 142,
+  "fields": {
+    "project": 68,
+    "date": "2026-05-03",
+    "total_cost": "2350.00",
+    "total_tasks": 10,
+    "completed_tasks": 9,
+    "progress": 90.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 143,
+  "fields": {
+    "project": 66,
+    "date": "2026-05-03",
+    "total_cost": "3000.00",
+    "total_tasks": 9,
+    "completed_tasks": 6,
+    "progress": 66.66666666666666,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 144,
+  "fields": {
+    "project": 61,
+    "date": "2026-05-03",
+    "total_cost": "3620.00",
+    "total_tasks": 13,
+    "completed_tasks": 11,
+    "progress": 84.61538461538461,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 145,
+  "fields": {
+    "project": 64,
+    "date": "2026-05-03",
+    "total_cost": "3160.00",
+    "total_tasks": 16,
+    "completed_tasks": 8,
+    "progress": 50.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 146,
+  "fields": {
+    "project": 63,
+    "date": "2026-05-03",
+    "total_cost": "2300.00",
+    "total_tasks": 11,
+    "completed_tasks": 8,
+    "progress": 72.72727272727273,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 147,
+  "fields": {
+    "project": 67,
+    "date": "2026-05-03",
+    "total_cost": "4600.00",
+    "total_tasks": 10,
+    "completed_tasks": 8,
+    "progress": 80.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 148,
+  "fields": {
+    "project": 60,
+    "date": "2026-05-03",
+    "total_cost": "960.00",
+    "total_tasks": 7,
+    "completed_tasks": 2,
+    "progress": 28.57142857142857,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 149,
+  "fields": {
+    "project": 59,
+    "date": "2026-05-03",
+    "total_cost": "1500.00",
+    "total_tasks": 6,
+    "completed_tasks": 2,
+    "progress": 33.33333333333333,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 150,
+  "fields": {
+    "project": 58,
+    "date": "2026-05-03",
+    "total_cost": "450.00",
+    "total_tasks": 6,
+    "completed_tasks": 1,
+    "progress": 16.666666666666664,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 151,
+  "fields": {
+    "project": 56,
+    "date": "2026-05-03",
+    "total_cost": "1000.00",
+    "total_tasks": 7,
+    "completed_tasks": 1,
+    "progress": 14.285714285714285,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 152,
+  "fields": {
+    "project": 55,
+    "date": "2026-05-03",
+    "total_cost": "400.00",
+    "total_tasks": 6,
+    "completed_tasks": 1,
+    "progress": 16.666666666666664,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 153,
+  "fields": {
+    "project": 54,
+    "date": "2026-05-03",
+    "total_cost": "700.00",
+    "total_tasks": 6,
+    "completed_tasks": 1,
+    "progress": 16.666666666666664,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 154,
+  "fields": {
+    "project": 53,
+    "date": "2026-05-03",
+    "total_cost": "600.00",
+    "total_tasks": 6,
+    "completed_tasks": 1,
+    "progress": 16.666666666666664,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 155,
+  "fields": {
+    "project": 52,
+    "date": "2026-05-03",
+    "total_cost": "700.00",
+    "total_tasks": 6,
+    "completed_tasks": 1,
+    "progress": 16.666666666666664,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 156,
+  "fields": {
+    "project": 51,
+    "date": "2026-05-03",
+    "total_cost": "500.00",
+    "total_tasks": 6,
+    "completed_tasks": 1,
+    "progress": 16.666666666666664,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 162,
+  "fields": {
+    "project": 74,
+    "date": "2026-05-07",
+    "total_cost": "540.00",
+    "total_tasks": 5,
+    "completed_tasks": 1,
+    "progress": 20.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 163,
+  "fields": {
+    "project": 73,
+    "date": "2026-05-07",
+    "total_cost": "800.00",
+    "total_tasks": 5,
+    "completed_tasks": 1,
+    "progress": 20.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 164,
+  "fields": {
+    "project": 71,
+    "date": "2026-05-07",
+    "total_cost": "400.00",
+    "total_tasks": 6,
+    "completed_tasks": 1,
+    "progress": 16.666666666666664,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 165,
+  "fields": {
+    "project": 51,
+    "date": "2026-05-07",
+    "total_cost": "1500.00",
+    "total_tasks": 6,
+    "completed_tasks": 2,
+    "progress": 33.33333333333333,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 166,
+  "fields": {
+    "project": 55,
+    "date": "2026-05-07",
+    "total_cost": "1800.00",
+    "total_tasks": 6,
+    "completed_tasks": 2,
+    "progress": 33.33333333333333,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 167,
+  "fields": {
+    "project": 70,
+    "date": "2026-05-08",
+    "total_cost": "1620.00",
+    "total_tasks": 14,
+    "completed_tasks": 5,
+    "progress": 35.714285714285715,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 168,
+  "fields": {
+    "project": 69,
+    "date": "2026-05-08",
+    "total_cost": "3500.00",
+    "total_tasks": 13,
+    "completed_tasks": 7,
+    "progress": 53.84615384615385,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 169,
+  "fields": {
+    "project": 70,
+    "date": "2026-05-09",
+    "total_cost": "1620.00",
+    "total_tasks": 14,
+    "completed_tasks": 5,
+    "progress": 35.714285714285715,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 170,
+  "fields": {
+    "project": 69,
+    "date": "2026-05-09",
+    "total_cost": "3500.00",
+    "total_tasks": 13,
+    "completed_tasks": 7,
+    "progress": 53.84615384615385,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 171,
+  "fields": {
+    "project": 70,
+    "date": "2026-05-12",
+    "total_cost": "1620.00",
+    "total_tasks": 13,
+    "completed_tasks": 5,
+    "progress": 38.46153846153847,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 172,
+  "fields": {
+    "project": 53,
+    "date": "2026-05-21",
+    "total_cost": "1160.00",
+    "total_tasks": 6,
+    "completed_tasks": 2,
+    "progress": 33.33333333333333,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 173,
+  "fields": {
+    "project": 70,
+    "date": "2026-05-21",
+    "total_cost": "1620.00",
+    "total_tasks": 14,
+    "completed_tasks": 5,
+    "progress": 35.714285714285715,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 174,
+  "fields": {
+    "project": 51,
+    "date": "2026-05-25",
+    "total_cost": "2200.00",
+    "total_tasks": 6,
+    "completed_tasks": 3,
+    "progress": 50.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 175,
+  "fields": {
+    "project": 73,
+    "date": "2026-05-26",
+    "total_cost": "800.00",
+    "total_tasks": 5,
+    "completed_tasks": 1,
+    "progress": 20.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 176,
+  "fields": {
+    "project": 51,
+    "date": "2026-05-26",
+    "total_cost": "2200.00",
+    "total_tasks": 6,
+    "completed_tasks": 3,
+    "progress": 50.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 177,
+  "fields": {
+    "project": 56,
+    "date": "2026-05-30",
+    "total_cost": "1250.00",
+    "total_tasks": 7,
+    "completed_tasks": 2,
+    "progress": 28.57142857142857,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 178,
+  "fields": {
+    "project": 51,
+    "date": "2026-05-30",
+    "total_cost": "3300.00",
+    "total_tasks": 6,
+    "completed_tasks": 5,
+    "progress": 83.33333333333334,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 179,
+  "fields": {
+    "project": 54,
+    "date": "2026-05-30",
+    "total_cost": "1600.00",
+    "total_tasks": 6,
+    "completed_tasks": 2,
+    "progress": 33.33333333333333,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 180,
+  "fields": {
+    "project": 67,
+    "date": "2026-05-30",
+    "total_cost": "4960.00",
+    "total_tasks": 10,
+    "completed_tasks": 9,
+    "progress": 90.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 181,
+  "fields": {
+    "project": 73,
+    "date": "2026-05-30",
+    "total_cost": "1280.00",
+    "total_tasks": 5,
+    "completed_tasks": 2,
+    "progress": 40.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectmetrics",
+  "pk": 182,
+  "fields": {
+    "project": 70,
+    "date": "2026-05-30",
+    "total_cost": "3300.00",
+    "total_tasks": 9,
+    "completed_tasks": 9,
+    "progress": 100.0,
+    "scope_change": 0
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 1,
+  "fields": {
+    "project": 61,
+    "alert_type": "DELAY",
+    "message": "🚨 Project may not finish on time (only 85.0% expected)",
+    "created_at": "2026-04-19T09:01:06.223Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 2,
+  "fields": {
+    "project": 61,
+    "alert_type": "EFFICIENCY",
+    "message": "⚠️ Low efficiency: cost high vs progress",
+    "created_at": "2026-04-19T09:01:06.239Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 3,
+  "fields": {
+    "project": 61,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": "🚨 Future inefficiency: +2804 cost for only +0.0% progress",
+    "created_at": "2026-04-19T09:01:06.242Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 4,
+  "fields": {
+    "project": 61,
+    "alert_type": "PROGRESS",
+    "message": "⚠️ Progress stagnant for 3 days",
+    "created_at": "2026-04-19T09:01:08.781Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 5,
+  "fields": {
+    "project": 64,
+    "alert_type": "DELAY",
+    "message": "🚨 Project may not finish on time (only 50.0% expected)",
+    "created_at": "2026-04-19T09:03:24.022Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 6,
+  "fields": {
+    "project": 64,
+    "alert_type": "EFFICIENCY",
+    "message": "⚠️ Low efficiency: cost high vs progress",
+    "created_at": "2026-04-19T09:03:24.030Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 7,
+  "fields": {
+    "project": 64,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": "🚨 Future inefficiency: +1174 cost for only +0.0% progress",
+    "created_at": "2026-04-19T09:03:28.791Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 8,
+  "fields": {
+    "project": 63,
+    "alert_type": "DELAY",
+    "message": "🚨 Project may not finish on time (only 87.1% expected)",
+    "created_at": "2026-04-19T10:32:09.753Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 9,
+  "fields": {
+    "project": 63,
+    "alert_type": "BUDGET",
+    "message": "💸 Predicted cost (10470) exceeds budget (10000.00)",
+    "created_at": "2026-04-19T10:32:09.758Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 10,
+  "fields": {
+    "project": 63,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": "🚨 Future inefficiency: +4060 cost for only +11.7% progress",
+    "created_at": "2026-04-19T10:32:09.764Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 11,
+  "fields": {
+    "project": 70,
+    "alert_type": "DELAY",
+    "message": " Le projet risque de ne pas être terminé à temps (seulement 88.9% prévus)",
+    "created_at": "2026-04-19T10:32:19.582Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 12,
+  "fields": {
+    "project": 65,
+    "alert_type": "DELAY",
+    "message": "🚨 Project may not finish on time (only 83.6% expected)",
+    "created_at": "2026-04-19T11:46:03.813Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 14,
+  "fields": {
+    "project": 69,
+    "alert_type": "DELAY",
+    "message": " Le projet risque de ne pas être terminé à temps (seulement 68.7% prévus)",
+    "created_at": "2026-04-19T13:01:28.849Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 15,
+  "fields": {
+    "project": 68,
+    "alert_type": "DELAY",
+    "message": "🚨 Project may not finish on time (only 88.0% expected)",
+    "created_at": "2026-04-19T13:01:28.917Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 16,
+  "fields": {
+    "project": 67,
+    "alert_type": "DELAY",
+    "message": "🚨 Project may not finish on time (only 80.0% expected)",
+    "created_at": "2026-04-19T13:01:28.984Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 17,
+  "fields": {
+    "project": 66,
+    "alert_type": "DELAY",
+    "message": "🚨 Project may not finish on time (only 84.2% expected)",
+    "created_at": "2026-04-19T13:01:28.996Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 18,
+  "fields": {
+    "project": 61,
+    "alert_type": "BUDGET",
+    "message": "💸 Le coût prévisionnel (21095) dépasse le budget (10000.00)",
+    "created_at": "2026-04-19T13:01:29.952Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 19,
+  "fields": {
+    "project": 65,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": "🚨 Future inefficiency: +4290 cost for only +31.4% progress",
+    "created_at": "2026-04-19T13:01:30.973Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 20,
+  "fields": {
+    "project": 64,
+    "alert_type": "BUDGET",
+    "message": "💸 Predicted cost (15050) exceeds budget (10000.00)",
+    "created_at": "2026-04-19T13:01:31.994Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 25,
+  "fields": {
+    "project": 74,
+    "alert_type": "DELAY",
+    "message": " Le projet risque de ne pas être terminé à temps (seulement 20.0% prévus)",
+    "created_at": "2026-04-19T13:26:45.683Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 26,
+  "fields": {
+    "project": 73,
+    "alert_type": "DELAY",
+    "message": " Le projet risque de ne pas être terminé à temps (seulement 55.5% prévus)",
+    "created_at": "2026-04-19T13:26:45.742Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 27,
+  "fields": {
+    "project": 71,
+    "alert_type": "DELAY",
+    "message": " Le projet risque de ne pas être terminé à temps (seulement 16.7% prévus)",
+    "created_at": "2026-04-19T13:26:45.915Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 29,
+  "fields": {
+    "project": 70,
+    "alert_type": "BUDGET",
+    "message": "💸 Predicted cost (2625) exceeds budget (2000.00)",
+    "created_at": "2026-04-19T14:47:41.128Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 30,
+  "fields": {
+    "project": 67,
+    "alert_type": "BUDGET",
+    "message": "💸 Predicted cost (11881) exceeds budget (10000.00)",
+    "created_at": "2026-04-19T14:47:41.281Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 31,
+  "fields": {
+    "project": 60,
+    "alert_type": "DELAY",
+    "message": " Le projet risque de ne pas être terminé à temps (seulement 28.6% prévus)",
+    "created_at": "2026-04-19T14:51:19.758Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 32,
+  "fields": {
+    "project": 70,
+    "alert_type": "EFFICIENCY",
+    "message": "⚠️ Low efficiency: cost high vs progress",
+    "created_at": "2026-04-19T15:08:05.827Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 33,
+  "fields": {
+    "project": 70,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": " Inefficacité future : +523 de coût pour seulement +0.0% de progression",
+    "created_at": "2026-04-19T15:08:05.834Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 34,
+  "fields": {
+    "project": 69,
+    "alert_type": "EFFICIENCY",
+    "message": "⚠️ Low efficiency: cost high vs progress",
+    "created_at": "2026-04-19T15:08:05.898Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 35,
+  "fields": {
+    "project": 69,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": "🚨 Future inefficiency: +3782 cost for only +10.2% progress",
+    "created_at": "2026-04-19T15:08:05.903Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 36,
+  "fields": {
+    "project": 68,
+    "alert_type": "EFFICIENCY",
+    "message": "⚠️ Low efficiency: cost high vs progress",
+    "created_at": "2026-04-19T15:08:06.011Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 37,
+  "fields": {
+    "project": 68,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": "🚨 Future inefficiency: +16781 cost for only +0.0% progress",
+    "created_at": "2026-04-19T15:08:06.018Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 38,
+  "fields": {
+    "project": 67,
+    "alert_type": "EFFICIENCY",
+    "message": "⚠️ Low efficiency: cost high vs progress",
+    "created_at": "2026-04-19T15:08:06.054Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 39,
+  "fields": {
+    "project": 67,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": "🚨 Future inefficiency: +7281 cost for only +0.0% progress",
+    "created_at": "2026-04-19T15:08:06.081Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 40,
+  "fields": {
+    "project": 66,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": "🚨 Future inefficiency: +12729 cost for only +0.0% progress",
+    "created_at": "2026-04-19T15:08:06.171Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 41,
+  "fields": {
+    "project": 69,
+    "alert_type": "BUDGET",
+    "message": "💸 Predicted cost (13808) exceeds budget (10000.00)",
+    "created_at": "2026-04-20T08:13:42.941Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 43,
+  "fields": {
+    "project": 68,
+    "alert_type": "BUDGET",
+    "message": "💸 Predicted cost (19131) exceeds budget (10000.00)",
+    "created_at": "2026-04-21T11:44:00.704Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 44,
+  "fields": {
+    "project": 66,
+    "alert_type": "BUDGET",
+    "message": "💸 Predicted cost (15229) exceeds budget (10000.00)",
+    "created_at": "2026-04-21T11:49:51.286Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 45,
+  "fields": {
+    "project": 65,
+    "alert_type": "BUDGET",
+    "message": "💸 Predicted cost (14636) exceeds budget (10000.00)",
+    "created_at": "2026-04-21T11:51:56.695Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 46,
+  "fields": {
+    "project": 59,
+    "alert_type": "DELAY",
+    "message": " Le projet risque de ne pas être terminé à temps (seulement 33.3% prévus)",
+    "created_at": "2026-04-22T19:39:11.872Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 47,
+  "fields": {
+    "project": 58,
+    "alert_type": "DELAY",
+    "message": " Le projet risque de ne pas être terminé à temps (seulement 16.7% prévus)",
+    "created_at": "2026-04-22T19:39:12.107Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 48,
+  "fields": {
+    "project": 64,
+    "alert_type": "PROGRESS",
+    "message": "⚠️ Progress stagnant for 3 days",
+    "created_at": "2026-04-22T19:48:52.511Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 49,
+  "fields": {
+    "project": 61,
+    "alert_type": "COST",
+    "message": "⚠️ Cost not changing (possible issue)",
+    "created_at": "2026-04-22T20:20:30.790Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 50,
+  "fields": {
+    "project": 65,
+    "alert_type": "PROGRESS",
+    "message": "⚠️ Progress stagnant for 3 days",
+    "created_at": "2026-04-22T20:22:41.315Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 51,
+  "fields": {
+    "project": 70,
+    "alert_type": "COST",
+    "message": "⚠️ Le coût ne change pas (problème possible)",
+    "created_at": "2026-04-22T20:24:03.696Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 52,
+  "fields": {
+    "project": 70,
+    "alert_type": "PROGRESS",
+    "message": "⚠️ Progress stagnant for 3 days",
+    "created_at": "2026-04-23T15:05:04.795Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 53,
+  "fields": {
+    "project": 67,
+    "alert_type": "PROGRESS",
+    "message": "⚠️ Progress stagnant for 3 days",
+    "created_at": "2026-04-23T15:05:04.859Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 54,
+  "fields": {
+    "project": 63,
+    "alert_type": "PROGRESS",
+    "message": "⚠️ Progress stagnant for 3 days",
+    "created_at": "2026-04-23T15:05:06.216Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 55,
+  "fields": {
+    "project": 64,
+    "alert_type": "COST",
+    "message": "⚠️ Cost not changing (possible issue)",
+    "created_at": "2026-04-23T16:02:39.984Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 56,
+  "fields": {
+    "project": 56,
+    "alert_type": "DELAY",
+    "message": " Le projet risque de ne pas être terminé à temps (seulement 28.6% prévus)",
+    "created_at": "2026-04-24T13:24:56.142Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 57,
+  "fields": {
+    "project": 55,
+    "alert_type": "DELAY",
+    "message": " Le projet risque de ne pas être terminé à temps (seulement 33.3% prévus)",
+    "created_at": "2026-04-24T13:24:56.221Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 58,
+  "fields": {
+    "project": 54,
+    "alert_type": "DELAY",
+    "message": " Le projet risque de ne pas être terminé à temps (seulement 33.3% prévus)",
+    "created_at": "2026-04-24T13:24:56.608Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 59,
+  "fields": {
+    "project": 53,
+    "alert_type": "DELAY",
+    "message": " Le projet risque de ne pas être terminé à temps (seulement 33.3% prévus)",
+    "created_at": "2026-04-24T13:24:56.779Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 60,
+  "fields": {
+    "project": 52,
+    "alert_type": "DELAY",
+    "message": "🚨 Project may not finish on time (only 16.7% expected)",
+    "created_at": "2026-04-24T13:24:58.070Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 61,
+  "fields": {
+    "project": 51,
+    "alert_type": "DELAY",
+    "message": " Le projet risque de ne pas être terminé à temps (seulement 66.7% prévus)",
+    "created_at": "2026-04-24T13:24:58.150Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 62,
+  "fields": {
+    "project": 69,
+    "alert_type": "PROGRESS",
+    "message": "⚠️ Progress stagnant for 3 days",
+    "created_at": "2026-04-24T15:10:01.397Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 63,
+  "fields": {
+    "project": 69,
+    "alert_type": "COST",
+    "message": "⚠️ Cost not changing (possible issue)",
+    "created_at": "2026-04-26T14:28:22.206Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 64,
+  "fields": {
+    "project": 68,
+    "alert_type": "PROGRESS",
+    "message": "⚠️ Progress stagnant for 3 days",
+    "created_at": "2026-04-28T20:38:17.576Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 65,
+  "fields": {
+    "project": 65,
+    "alert_type": "COST",
+    "message": "⚠️ Cost not changing (possible issue)",
+    "created_at": "2026-04-28T20:44:16.603Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 66,
+  "fields": {
+    "project": 67,
+    "alert_type": "COST",
+    "message": "⚠️ Cost not changing (possible issue)",
+    "created_at": "2026-04-28T20:45:14.566Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 67,
+  "fields": {
+    "project": 66,
+    "alert_type": "PROGRESS",
+    "message": "⚠️ Progress stagnant for 3 days",
+    "created_at": "2026-04-28T21:10:54.454Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 68,
+  "fields": {
+    "project": 66,
+    "alert_type": "COST",
+    "message": "⚠️ Cost not changing (possible issue)",
+    "created_at": "2026-05-03T11:13:24.073Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 69,
+  "fields": {
+    "project": 54,
+    "alert_type": "BUDGET",
+    "message": " Le coût prévisionnel (4800) dépasse le budget (2500.00)",
+    "created_at": "2026-05-03T11:54:42.523Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 70,
+  "fields": {
+    "project": 54,
+    "alert_type": "EFFICIENCY",
+    "message": " Faible efficacité : coût élevé par rapport à la progression",
+    "created_at": "2026-05-03T11:54:42.528Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 71,
+  "fields": {
+    "project": 54,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": " Inefficacité future : +3200 de coût pour seulement +0.0% de progression",
+    "created_at": "2026-05-03T11:54:42.534Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 72,
+  "fields": {
+    "project": 60,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": " Inefficacité future : +2400 de coût pour seulement +0.0% de progression",
+    "created_at": "2026-05-03T11:57:15.745Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 73,
+  "fields": {
+    "project": 59,
+    "alert_type": "BUDGET",
+    "message": " Le coût prévisionnel (4500) dépasse le budget (1800.00)",
+    "created_at": "2026-05-03T12:00:36.220Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 74,
+  "fields": {
+    "project": 59,
+    "alert_type": "EFFICIENCY",
+    "message": " Faible efficacité : coût élevé par rapport à la progression",
+    "created_at": "2026-05-03T12:00:36.238Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 75,
+  "fields": {
+    "project": 59,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": " Inefficacité future : +3000 de coût pour seulement +0.0% de progression",
+    "created_at": "2026-05-03T12:00:36.243Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 76,
+  "fields": {
+    "project": 60,
+    "alert_type": "EFFICIENCY",
+    "message": " Faible efficacité : coût élevé par rapport à la progression",
+    "created_at": "2026-05-03T12:50:04.519Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 78,
+  "fields": {
+    "project": 51,
+    "alert_type": "BUDGET",
+    "message": " Le coût prévisionnel (4339) dépasse le budget (1500.00)",
+    "created_at": "2026-05-07T11:11:29.475Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 79,
+  "fields": {
+    "project": 51,
+    "alert_type": "EFFICIENCY",
+    "message": "⚠️ Faible efficacité : coût élevé par rapport à la progression",
+    "created_at": "2026-05-07T11:11:29.479Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 80,
+  "fields": {
+    "project": 51,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": " Inefficacité future : +1284 de coût pour seulement +0.0% de progression",
+    "created_at": "2026-05-07T11:11:29.484Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 81,
+  "fields": {
+    "project": 55,
+    "alert_type": "EFFICIENCY",
+    "message": " Faible efficacité : coût élevé par rapport à la progression",
+    "created_at": "2026-05-07T11:11:34.656Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 82,
+  "fields": {
+    "project": 55,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": " Inefficacité future : +3600 de coût pour seulement +0.0% de progression",
+    "created_at": "2026-05-07T11:11:34.661Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 88,
+  "fields": {
+    "project": 74,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": " Inefficacité future : +2160 de coût pour seulement +0.0% de progression",
+    "created_at": "2026-05-07T11:21:40.917Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 89,
+  "fields": {
+    "project": 73,
+    "alert_type": "BUDGET",
+    "message": " Le coût prévisionnel (4000) dépasse le budget (2000.00)",
+    "created_at": "2026-05-07T11:21:49.803Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 90,
+  "fields": {
+    "project": 73,
+    "alert_type": "EFFICIENCY",
+    "message": " Faible efficacité : coût élevé par rapport à la progression",
+    "created_at": "2026-05-07T11:21:49.811Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 91,
+  "fields": {
+    "project": 73,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": " Inefficacité future : +3200 de coût pour seulement +0.0% de progression",
+    "created_at": "2026-05-07T11:21:49.817Z",
+    "is_active": false
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 92,
+  "fields": {
+    "project": 71,
+    "alert_type": "EFFICIENCY",
+    "message": " Faible efficacité : coût élevé par rapport à la progression",
+    "created_at": "2026-05-07T11:22:00.373Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 93,
+  "fields": {
+    "project": 71,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": " Inefficacité future : +2000 de coût pour seulement +0.0% de progression",
+    "created_at": "2026-05-07T11:22:00.380Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 94,
+  "fields": {
+    "project": 52,
+    "alert_type": "EFFICIENCY",
+    "message": "⚠️ Low efficiency: cost high vs progress",
+    "created_at": "2026-05-12T11:37:23.206Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 95,
+  "fields": {
+    "project": 52,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": "🚨 Future inefficiency: +3500 cost for only +0.0% progress",
+    "created_at": "2026-05-12T11:37:23.214Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 96,
+  "fields": {
+    "project": 53,
+    "alert_type": "EFFICIENCY",
+    "message": " Faible efficacité : coût élevé par rapport à la progression",
+    "created_at": "2026-05-21T20:57:36.153Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 97,
+  "fields": {
+    "project": 53,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": " Inefficacité future : +2320 de coût pour seulement +0.0% de progression",
+    "created_at": "2026-05-21T20:57:36.168Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 98,
+  "fields": {
+    "project": 56,
+    "alert_type": "BUDGET",
+    "message": " Le coût prévisionnel (4375) dépasse le budget (1200.00)",
+    "created_at": "2026-05-30T11:17:53.621Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 99,
+  "fields": {
+    "project": 56,
+    "alert_type": "EFFICIENCY",
+    "message": " Faible efficacité : coût élevé par rapport à la progression",
+    "created_at": "2026-05-30T11:17:53.670Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 100,
+  "fields": {
+    "project": 56,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": " Inefficacité future : +3125 de coût pour seulement +0.0% de progression",
+    "created_at": "2026-05-30T11:17:53.677Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 101,
+  "fields": {
+    "project": 58,
+    "alert_type": "BUDGET",
+    "message": " Le coût prévisionnel (2700) dépasse le budget (900.00)",
+    "created_at": "2026-05-30T13:37:24.706Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 102,
+  "fields": {
+    "project": 58,
+    "alert_type": "EFFICIENCY",
+    "message": " Faible efficacité : coût élevé par rapport à la progression",
+    "created_at": "2026-05-30T13:37:24.712Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 103,
+  "fields": {
+    "project": 58,
+    "alert_type": "FUTURE_INEFFICIENCY",
+    "message": " Inefficacité future : +2250 de coût pour seulement +0.0% de progression",
+    "created_at": "2026-05-30T13:37:24.718Z",
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.projectalert",
+  "pk": 104,
+  "fields": {
+    "project": 55,
+    "alert_type": "BUDGET",
+    "message": " Le coût prévisionnel (5400) dépasse le budget (3000.00)",
+    "created_at": "2026-05-30T13:37:41.825Z",
+    "is_active": true
+  }
+}
+]
